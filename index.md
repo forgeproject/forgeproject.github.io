@@ -28,7 +28,7 @@ title: "ForgeProject"
 
 ## Web Info
 
-Our goal is to help new players in Total Miner  [`v2.9.4`](https://discord.com/channels/259780503115137028/655266423484186673) 
+Our goal is to help new players in  [`Total Miner`](https://discord.com/channels/259780503115137028/655266423484186673) 
 
 ## Table of contents
 
