@@ -65,9 +65,13 @@ Looking for builders and scripters.
 
 ## What's included
 [Maps](./maps.md)
+<br>
 [Mods](./mods.md)
+<br>
 [Scripting](./scripting.md)
+<br>
 [Tutorials](./tutorials.md)
+<br>
 [More Info](./other.md)
 
 
