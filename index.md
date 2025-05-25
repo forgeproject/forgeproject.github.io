@@ -10,9 +10,14 @@ title: "ForgeProject"
 
 
 <p align="center">
-  Hello fellow Total Miners I hope you find the info here helpful and if you have any tips or advice let me know and I will try to get to them. If you are new to Total Miner 
-  and are looking to learn here is the right place. I will be posting all my mods here in hope it will help guide you to making some yourself. If you need help with the game mode I
-  will be working on adding a tutorial for both Dig Deep and Survival so keep a lookout for that.
+<h1>Welcome to the Total Miner Hub</h1>
+Greetings, Total Miners!
+I hope you find the resources here valuable in your journey through the game. Whether you're a seasoned player or new to Total Miner, this site is designed to provide helpful insights, tutorials, and tools to enhance your experience.
+For those looking to explore modding, I’ll be sharing all my custom mods here. My goal is to guide and inspire you to create your own modifications, enriching the game in new and exciting ways.
+Additionally, if you're seeking guidance on gameplay, I’m working on comprehensive tutorials for both <b>Dig Deep</b> and <b>Survival</b> modes. Keep an eye out for updates as I continue to expand this section to support your adventure.
+If you have any tips, feedback, or suggestions, feel free to reach out—I always welcome new ideas and will do my best to address them.
+Thank you for being part of this community!
+
   <br>
   <br>
   <a href="https://discord.gg/totalminer"><strong>Total Miner Official Discord »</strong></a>
