@@ -64,28 +64,37 @@ Looking for builders and scripters.
 
 
 ## What's included
-
-Maps, Mods, Scripting, Tutorials and more!
+[Maps](./maps.md)
+[Mods](./mods.md)
+[Scripting](./scripting.md)
+[Tutorials](./tutorials.md)
+[More Info](./other.md)
 
 
 ## Bugs and feature requests
 
-none
+None
 
 
 ## Contributing
 
-none
+[`B1ack W1dow`](https://www.youtube.com/@TheIndiePlayer) 
 
 
 ## Community
 
-Thank you all on the Total Miner Discord community for all the support!!!
+To everyone in this incredible Discord community,
+Words cannot fully express my gratitude for the support, encouragement, and collaboration that have brought me to where I am today. From insightful feedback to late-night discussions, each interaction has been invaluable in shaping my journey.
+Your generosity in sharing knowledge, providing guidance, and uplifting one another has created a space where creativity and growth thrive. This community is more than just a gathering—it's a source of inspiration and strength.
+I am truly thankful for every comment, critique, and conversation that has helped me refine my work and push beyond my limits. Your support has been instrumental, and I look forward to continuing this journey together.
+With appreciation,
+B1ack W1dow
+
 
 
 ## Versioning
 
-Current Version 2.9.4
+Current Version 2.20.9
 
 
 ## Admins
