@@ -48,6 +48,7 @@ Our goal is to help new players in  [`Total Miner`](https://discord.com/channels
 
 - [Download the latest release](https://github.com/forgeproject/forgeproject.github.io/archive/refs/heads/main.zip)
 - [cmartin99 github page](https://github.com/cmartin99)
+- [slimjum github page](https://github.com/slimjum)
 - [Reference Guide](https://cmartin99.github.io/index)
 
 Read the [Read Me Document](./another-page.md) for information on the contents, templates, maps, examples, and more.
