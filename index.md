@@ -96,10 +96,14 @@ None
 ## Community
 
 To everyone in this incredible Discord community,
+<br>
 Words cannot fully express my gratitude for the support, encouragement, and collaboration that have brought me to where I am today. From insightful feedback to late-night discussions, each interaction has been invaluable in shaping my journey.
+<br>
 Your generosity in sharing knowledge, providing guidance, and uplifting one another has created a space where creativity and growth thrive. This community is more than just a gathering—it's a source of inspiration and strength.
+<br>
 I am truly thankful for every comment, critique, and conversation that has helped me refine my work and push beyond my limits. Your support has been instrumental, and I look forward to continuing this journey together.
 With appreciation,
+<br>
 B1ack W1dow
 
 
