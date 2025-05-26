@@ -116,7 +116,7 @@ Current Version 2.20.9
 ## Admins
 
 **B1ack W1dow**
-- [Twitter](https://twitter.com/Whi7eW1dow)
+- [Twitter](https://x.com/F0rgePr0ject)
 - [Discord](https://discord.com/invite/xgrfVgD24z)
 
 
