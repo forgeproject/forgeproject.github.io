@@ -7,7 +7,6 @@ robots: noindex,follow
 sitemap_exclude: true
 ---
 
-</div>
 <p align="center">
   <a href="forgeproject.net/">
    <a href='https://postimg.cc/SJpSBRNH' target='_blank'><img src='https://i.postimg.cc/SJpSBRNH/logo.png' border='0' alt='logo'/></a>
