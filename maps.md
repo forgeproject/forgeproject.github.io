@@ -6,20 +6,13 @@ url: /maps.html
 robots: noindex,follow
 sitemap_exclude: true
 ---
-<div class="text-center py-5">
-  <h1 class="display-1">Test Page</h1>
-  <h2>Nothing to see here</h2>
+
 </div>
 <p align="center">
   <a href="forgeproject.net/">
    <a href='https://postimg.cc/SJpSBRNH' target='_blank'><img src='https://i.postimg.cc/SJpSBRNH/logo.png' border='0' alt='logo'/></a>
   </a>
 </p>
-
-
-## Map Info
-
-
 
 ## Table of contents
 
