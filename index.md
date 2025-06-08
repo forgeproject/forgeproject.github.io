@@ -55,6 +55,7 @@ Our goal is to help new players in  [`Total Miner`](https://discord.com/channels
 #### Several quick start options are available:
 
 - [Download the latest release](https://github.com/forgeproject/forgeproject.github.io/archive/refs/heads/main.zip)
+- [totalminer github page](https://github.com/TotalMiner)
 - [cmartin99 github page](https://github.com/cmartin99)
 - [slimjum github page](https://github.com/slimjum)
 - [Reference Guide](https://totalminer.github.io/)
