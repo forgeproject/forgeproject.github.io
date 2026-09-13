@@ -101,23 +101,7 @@ This document includes:
 
 ---
 
-## Scripting
 
-Total Miner uses **Lua** for scripting custom gameplay, automation, events, and modding.
-
-Visit the full scripting page here:  
-👉 **[Lua Scripting Resources](./scripting.md)**
-
-### Lua Example
-
-```lua
-print("Hello Total Miner!")
-
-function greet(name)
-    print("Welcome, " .. name .. "!")
-end
-
-greet("ForgeProject")
 
 
 
