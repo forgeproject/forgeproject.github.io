@@ -44,6 +44,7 @@ Our goal is to help new players in
 - [Quick start](#quick-start)
 - [Status](#status)
 - [What's included](#whats-included)
+- [ReadMe](#readme)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Contributing](#contributing)
 - [Community](#community)
@@ -81,6 +82,22 @@ Looking for builders and scripters.
 - [Scripting](./scripting.md)  
 - [Tutorials](./tutorials.md)  
 - [More Info](./other.md)
+
+---
+
+## ReadMe
+
+You can view the full project README here:
+
+👉 **[Open README.md](./README.md)**
+
+This document includes:
+- Project overview  
+- Download links  
+- Contribution info  
+- Community message  
+- Versioning  
+- Admin contacts  
 
 ---
 
@@ -124,6 +141,7 @@ Current Version: **2.20.9**
 
 - [Twitter](https://x.com/F0rgePr0ject)
 - [Discord](https://discord.com/invite/xgrfVgD24z)
+
 
 
 
