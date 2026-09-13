@@ -41,5 +41,6 @@ Each folder may include notes or installation instructions.
 ---
 
 ## 🤝 **Community Guidelines**
-All content in this repository is released for the **TotalMiner**
+All content in this repository is released for the game [**TotalMiner**](https://store.steampowered.com/app/347600/Total_Miner/)
+ on Steam 
 	
