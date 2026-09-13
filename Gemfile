@@ -1,5 +1,6 @@
-# frozen_string_literal: true
-
 source "https://rubygems.org"
 
-gemspec
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll", "~> 3.9"
+gem "webrick", "~> 1.7"   # Needed for local Jekyll serve
+
