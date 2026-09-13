@@ -44,7 +44,7 @@ Our goal is to help new players in
 - [Quick start](#quick-start)
 - [Status](#status)
 - [What's included](#whats-included)
-- [ReadMe](#readme)
+- [Scripting](#scripting)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Contributing](#contributing)
 - [Community](#community)
@@ -55,7 +55,7 @@ Our goal is to help new players in
 
 ## Quick start
 
-#### Several quick start options are available:
+Several quick start options are available:
 
 - [Download the latest release](https://github.com/forgeproject/forgeproject.github.io/archive/refs/heads/main.zip)
 - [TotalMiner GitHub page](https://github.com/TotalMiner)
@@ -63,7 +63,7 @@ Our goal is to help new players in
 - [slimjum GitHub page](https://github.com/slimjum)
 - [Reference Guide](https://totalminer.github.io/)
 
-Read the [Read Me Document](./another-page.md) for information on contents, templates, maps, examples, and more.
+Read the [Read Me Document](./README.md) for information on contents, templates, maps, examples, and more.
 
 ---
 
@@ -83,64 +83,7 @@ Looking for builders and scripters.
 - [Tutorials](./tutorials.md)  
 - [More Info](./other.md)
 
----
 
-## ReadMe
-
-You can view the full project README here:
-
-👉 **[Open README.md](./README.md)**
-
-This document includes:
-- Project overview  
-- Download links  
-- Contribution info  
-- Community message  
-- Versioning  
-- Admin contacts  
-
----
-
-## Bugs and feature requests
-
-None
-
----
-
-## Contributing
-
-[`B1ack W1dow`](https://www.youtube.com/@TheIndiePlayer)
-
----
-
-## Community
-
-To everyone in this incredible Discord community,  
-<br><br>
-Words cannot fully express my gratitude for the support, encouragement, and collaboration that have brought me to where I am today. From insightful feedback to late-night discussions, each interaction has been invaluable in shaping my journey.
-<br><br>
-Your generosity in sharing knowledge, providing guidance, and uplifting one another has created a space where creativity and growth thrive. This community is more than just a gathering—it's a source of inspiration and strength.
-<br><br>
-I am truly thankful for every comment, critique, and conversation that has helped me refine my work and push beyond my limits. Your support has been instrumental, and I look forward to continuing this journey together.
-<br><br>
-With appreciation,  
-<br>
-<b>B1ack W1dow</b>
-
----
-
-## Versioning
-
-Current Version: **2.20.9**
-
----
-
-## Admins
-
-**B1ack W1dow**
-
-- [Twitter](https://x.com/F0rgePr0ject)
-- [Discord](https://discord.com/invite/xgrfVgD24z)
 
 
 
