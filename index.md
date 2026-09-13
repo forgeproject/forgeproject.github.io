@@ -88,7 +88,7 @@ Looking for builders and scripters.
 
 You can view the full project README here:
 
-👉 **[Open README.md](./another-page.html)**
+👉 **[Project Overview / ReadMe](./another-page.html)**
 
 This document includes:
 
@@ -100,6 +100,25 @@ This document includes:
 - Admin contacts  
 
 ---
+
+## Scripting
+
+Total Miner uses **Lua** for scripting custom gameplay, automation, events, and modding.
+
+Visit the full scripting page here:  
+👉 **[Lua Scripting Resources](./scripting.md)**
+
+### Lua Example
+
+```lua
+print("Hello Total Miner!")
+
+function greet(name)
+    print("Welcome, " .. name .. "!")
+end
+
+greet("ForgeProject")
+
 
 
 
