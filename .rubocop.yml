@@ -9,3 +9,4 @@ AllCops:
 
 Layout/LineLength:
   Enabled: false
+
