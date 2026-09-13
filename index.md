@@ -35,7 +35,90 @@ Thank you for being part of this community!
 ## Web Info
 
 Our goal is to help new players in  
-[`Total Miner`](https://discord
+[`Total Miner`](https://discord.com/channels/259780503115137028/655266423484186673)
+
+---
+
+## Table of contents
+
+- [Quick start](#quick-start)
+- [Status](#status)
+- [What's included](#whats-included)
+- [ReadMe](#readme)
+- [Scripting](#scripting)
+- [Bugs and feature requests](#bugs-and-feature-requests)
+- [Contributing](#contributing)
+- [Community](#community)
+- [Versioning](#versioning)
+- [Admins](#admins)
+
+---
+
+## Quick start
+
+Several quick start options are available:
+
+- [Download the latest release](https://github.com/forgeproject/forgeproject.github.io/archive/refs/heads/main.zip)
+- [TotalMiner GitHub page](https://github.com/TotalMiner)
+- [cmartin99 GitHub page](https://github.com/cmartin99)
+- [slimjum GitHub page](https://github.com/slimjum)
+- [Reference Guide](https://totalminer.github.io/)
+
+---
+
+## Status
+
+Just getting started...  
+Scripting documents and help working on updates.  
+Looking for builders and scripters.
+
+---
+
+## What's included
+
+- [Maps](./maps.md)  
+- [Mods](./mods.md)  
+- [Scripting](./scripting.md)  
+- [Tutorials](./tutorials.md)  
+- [More Info](./other.md)
+
+---
+
+## ReadMe
+
+You can view the full project README here:
+
+👉 **[Open README.md](./another-page.html)**
+
+This document includes:
+
+- Project overview  
+- Download links  
+- Contribution info  
+- Community message  
+- Versioning  
+- Admin contacts  
+
+---
+
+## Scripting
+
+Total Miner uses **Lua** for scripting custom gameplay, automation, events, and modding.
+
+Visit the full scripting page here:  
+👉 **[Lua Scripting Resources](./scripting.md)**
+
+### Lua Example
+
+```lua
+print("Hello Total Miner!")
+
+function greet(name)
+    print("Welcome, " .. name .. "!")
+end
+
+greet("ForgeProject")
+
 
 
 
