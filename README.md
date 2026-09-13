@@ -41,5 +41,5 @@ Each folder may include notes or installation instructions.
 ---
 
 ## 🤝 **Community Guidelines**
-All content in this repository is released for the **TotalMiner
+All content in this repository is released for the **TotalMiner**
 	
