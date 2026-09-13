@@ -45,6 +45,7 @@ Our goal is to help new players in
 - [Status](#status)
 - [What's included](#whats-included)
 - [ReadMe](#readme)
+- [Guides](#guides)
 - [Scripting](#scripting)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Contributing](#contributing)
@@ -80,7 +81,12 @@ Looking for builders and scripters.
 - [Mods](./mods.md)  
 - [Scripting](./scripting.md)  
 - [Tutorials](./tutorials.md)  
-- [More Info](./other.md)
+- [More Info](./other.md)  
+- [Dig Deep Guide](./dig-deep.html)  
+- [Survival Guide](./survival.html)  
+- [FAQ](./faq.html)  
+- [Mod Installation Guide](./mod-installation.html)  
+- [Lua Documentation](./lua-docs.html)
 
 ---
 
@@ -101,6 +107,20 @@ This document includes:
 
 ---
 
+## Guides
+
+Here are the new gameplay and help guides added to the site:
+
+- **[Dig Deep Guide](./dig-deep.html)**  
+- **[Survival Guide](./survival.html)**  
+- **[FAQ](./faq.html)**  
+- **[Mod Installation Guide](./mod-installation.html)**  
+- **[Lua Documentation](./lua-docs.html)**  
+
+These guides help new and experienced players navigate Total Miner more easily.
+
+---
+
 ## Scripting
 
 Total Miner uses **Lua** for scripting custom gameplay, automation, events, and modding.
@@ -118,6 +138,7 @@ function greet(name)
 end
 
 greet("ForgeProject")
+
 
 
 
