@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ArrayOfTexturePackXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TexturePackXML>
+    <Name>Forge Project</Name>
+    <Author>B1ack W1dow</Author>
+    <Website>forgeproject.net</Website >
+    <Icon>Icon.png</Icon>
+    <Version>1000</Version>
+    <BlockAsset>tp_MyTexturePack.png</BlockAsset>
+    <BlockLODAsset>tp4_MyTexturePack.png</BlockLODAsset>
+    <ItemAsset>tpi_MyTexturePack.png</ItemAsset>
+    <Size>64</Size>
+  </TexturePackXML>
+</ArrayOfTexturePackXML>
