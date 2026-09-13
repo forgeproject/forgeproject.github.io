@@ -63,7 +63,6 @@ Several quick start options are available:
 - [slimjum GitHub page](https://github.com/slimjum)
 - [Reference Guide](https://totalminer.github.io/)
 
-Read the [Read Me Document](./README.md) for information on contents, templates, maps, examples, and more.
 
 ---
 
