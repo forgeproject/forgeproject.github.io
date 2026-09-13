@@ -69,15 +69,4 @@ This repository will be updated as new maps, mods, and tools are created. Check 
 
 ⭐ Thank You
 Thank you to everyone in the TotalMiner community for keeping the game alive and inspiring new creations. This pack is for all of you — enjoy, explore, and build something amazing.
-
-If you want, I can also create:
-
-A version with GitHub badges (downloads, license, repo size, etc.)
-
-A version with screenshots
-
-A more personal or humorous tone
-
-A Steam‑optimized description
-
-Just tell me the style you want.	
+	
