@@ -1,7 +1,7 @@
 ---
 title: "Scripting"
 layout: default
-description: "Total Miner Scripting Resources"
+description: "Total Miner Lua Scripting Resources"
 url: /scripting.html
 robots: noindex,follow
 sitemap_exclude: true
@@ -13,12 +13,12 @@ sitemap_exclude: true
   </a>
 </p>
 
-<h1 align="center">Total Miner Scripting</h1>
+<h1 align="center">Total Miner Lua Scripting</h1>
 
 <p align="center">
-Learn how to script in Total Miner with examples, guides, and community resources.  
+Learn how to script in Total Miner using Lua.  
 <br><br>
-New scripting tutorials and examples will be added regularly.
+This section includes examples, guides, and reusable code to help you build custom systems, mods, and gameplay mechanics.
 </p>
 
 ---
@@ -27,7 +27,9 @@ New scripting tutorials and examples will be added regularly.
 
 - [Quick start](#quick-start)
 - [Status](#status)
-- [Scripting Resources](#scripting-resources)
+- [Lua Basics](#lua-basics)
+- [Example Scripts](#example-scripts)
+- [Advanced Scripting](#advanced-scripting)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Contributing](#contributing)
 - [Community](#community)
@@ -38,60 +40,32 @@ New scripting tutorials and examples will be added regularly.
 
 ## Quick start
 
-Scripting examples will appear in the `/scripting/` folder once added.
+Lua scripts will appear in the `/scripting/` folder once added.
+
+If you're new to Lua, start with the basics below.
 
 ---
 
 ## Status
 
-Currently preparing scripting documentation and examples.  
+Currently preparing Lua scripting documentation and examples.  
 Looking for experienced scripters to contribute.
 
 ---
 
-## Scripting Resources
+## Lua Basics
 
-No scripting files uploaded yet.  
-Check back soon!
+Lua is a lightweight scripting language used in Total Miner for:
 
----
+- Custom events  
+- Automation  
+- Gameplay logic  
+- Modding  
+- UI interactions  
 
-## Bugs and feature requests
+### Basic Lua Example
 
-- [Report a bug](https://github.com/forgeproject/forgeproject.github.io/issues)
-- [Request a feature](https://github.com/forgeproject/forgeproject.github.io/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement)
+```lua
+-- Print a message to the console
+print("Hello Total Miner!")
 
----
-
-## Contributing
-
-Want to add scripting examples?
-
-1. Fork the repository  
-2. Add your scripts to the `/scripting/` folder  
-3. Submit a pull request  
-
----
-
-## Community
-
-Thank you to everyone in the Total Miner community for your support and creativity.
-
----
-
-## Versioning
-
-Current Version: **2.20.9**
-
----
-
-## Admins
-
-**B1ack W1dow**
-
-- [Twitter](https://x.com/F0rgePr0ject)
-- [Discord](https://discord.com/invite/xgrfVgD24z)
-
----
-
-[← Back to Home](./)
