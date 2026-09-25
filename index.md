@@ -1,7 +1,7 @@
 ---
 title: "Total Miner Files"
 layout: default
-description: "ForgeProject — Total Miner maps, mods, Lua scripting docs, and tutorials, all in one place."
+description: "ForgeProject — Total Miner maps, mods, Lua, scripting, and tutorials, all in one place."
 ---
 
 <p align="center">
