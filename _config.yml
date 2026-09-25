@@ -1,0 +1,16 @@
+title: "Total Miner"
+description: "Total Miner Files are here and free"
+show_downloads: false
+
+# Optional: add your Google Analytics ID here
+google_analytics:
+
+# GitHub Pages theme
+theme: jekyll-theme-hacker
+
+# Exclude build folders
+exclude:
+  - vendor
+  - _site
+  - Gemfile
+  - Gemfile.lock

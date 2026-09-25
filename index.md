@@ -1,0 +1,46 @@
+---
+title: "Total Miner Files"
+layout: default
+description: "ForgeProject — Total Miner maps, mods, Lua scripting docs, and tutorials, all in one place."
+---
+
+<p align="center">
+  <a href="https://forgeproject.net">
+    <img src="https://i.postimg.cc/SJpSBRNH/logo.png" alt="ForgeProject Logo" />
+  </a>
+</p>
+
+<h1 align="center">ForgeProject – Total Miner Files</h1>
+
+<p align="center">
+Maps, mods, Lua scripting docs, and tutorials for Total Miner — free, and organized so you can find what you need fast.
+</p>
+
+---
+
+## Browse
+
+| Section | What's there |
+|---|---|
+| [Maps](./maps.html) | Ready-to-play worlds for exploration or server hosting |
+| [Mods](./mods.html) | Custom mods and add-ons, built on the Lua scripting API below |
+| [Mod Installation Guide](./mod-installation.html) | Step-by-step setup for any mod on this site |
+| [Lua Scripting Reference](./lua-docs.html) | The API mods are built with — interfaces, hooks, and examples |
+| [Tutorials](./tutorials.html) | Guides for Dig Deep, Survival, and general gameplay |
+| [FAQ](./faq.html) | Quick answers about maps, mods, scripting, and this site |
+| [Other Resources](./other.html) | Everything else — tools, references, misc files |
+
+Mods and the Lua Scripting Reference go together: mods on this site are built using the hooks and interfaces documented there, so if you want to modify a mod (or write your own), start with the [Lua Scripting Reference](./lua-docs.html).
+
+---
+
+## Quick Start
+
+- **Latest ZIP (main branch):** https://github.com/forgeproject/forgeproject.github.io/archive/refs/heads/main.zip
+- **Official Total Miner Discord:** https://discord.gg/totalminer
+- **Bug Reports:** https://github.com/forgeproject/forgeproject.github.io/issues
+- **Feature Requests:** https://github.com/forgeproject/forgeproject.github.io/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement
+
+---
+
+{% include site-footer.md %}
