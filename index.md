@@ -25,12 +25,13 @@ Maps, mods, Lua scripting docs, and tutorials for Total Miner — free, and orga
 | [Maps](./maps.html) | Ready-to-play worlds for exploration or server hosting |
 | [Mods](./mods.html) | Custom mods and add-ons, built on the Lua scripting API below |
 | [Mod Installation Guide](./mod-installation.html) | Step-by-step setup for any mod on this site |
-| [Lua Scripting Reference](./lua-docs.html) | The API mods are built with — interfaces, hooks, and examples |
+| [Scripting Command Reference](./scripting.html) | Total Miner's built-in commands for map triggers and logic |
+| [Lua Scripting Reference](./lua-docs.html) | The modding API — interfaces, hooks, and examples |
 | [Tutorials](./tutorials.html) | Guides for Dig Deep, Survival, and general gameplay |
 | [FAQ](./faq.html) | Quick answers about maps, mods, scripting, and this site |
 | [Other Resources](./other.html) | Everything else — tools, references, misc files |
 
-Mods and the Lua Scripting Reference go together: mods on this site are built using the hooks and interfaces documented there, so if you want to modify a mod (or write your own), start with the [Lua Scripting Reference](./lua-docs.html).
+Total Miner has two ways to script things: the built-in [Scripting Command Reference](./scripting.html) for map triggers and simple logic, and the [Lua Scripting Reference](./lua-docs.html) for full mods. Mods on this site are built with the Lua API — start there if you want to modify one or write your own.
 
 ---
 
