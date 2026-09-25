@@ -10,7 +10,8 @@ Source for the **ForgeProject Total Miner Files** site — maps, mods, a Lua scr
 - [Maps](./maps.md) — ready-to-play worlds
 - [Mods](./mods.md) — custom mods, built on the Lua scripting API
 - [Mod Installation Guide](./mod-installation.md)
-- [Lua Scripting Reference](./lua-docs.md) — interfaces, hooks, and examples
+- [Scripting Command Reference](./scripting.md) — built-in commands for map triggers and logic
+- [Lua Scripting Reference](./lua-docs.md) — modding API, interfaces, hooks, and examples
 - [Tutorials](./tutorials.md) — Dig Deep, Survival, and general gameplay
 - [FAQ](./faq.md)
 - [Other Resources](./other.md)
@@ -29,3 +30,4 @@ Have a map, mod, or script to share? Open an issue or submit a pull request. Spe
 ## License
 
 All content is provided for community use. Please credit the original creator when sharing or modifying files.
+
