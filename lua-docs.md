@@ -1,7 +1,7 @@
 ---
 title: "Lua Documentation"
 layout: default
-description: "Lua scripting reference for Total Miner"
+description: "Lua modding API reference for Total Miner — for mod-level hooks, not the built-in command scripting system"
 url: /lua-docs.html
 robots: noindex,follow
 sitemap_exclude: true
@@ -16,9 +16,11 @@ sitemap_exclude: true
 <h1 align="center">Total Miner Lua API Reference</h1>
 
 <p align="center">
-Complete guide to scripting in Total Miner using Lua.
-<br><br>
-Learn about all available classes, methods, hooks, and data types for extending Total Miner gameplay.
+Complete guide to Total Miner's Lua modding API — classes, methods, hooks, and data types for building mods that go beyond what the built-in command scripting can do.
+</p>
+
+<p align="center">
+Looking for the simpler, built-in command scripting used for map triggers instead? See the <a href="./scripting.html">Scripting Command Reference</a>.
 </p>
 
 ---
@@ -43,7 +45,7 @@ The Total Miner Lua API provides access to game internals through interfaces and
 - Create custom gameplay behaviors
 - Control the game world
 
-Lua is a lightweight scripting language used by Total Miner for extending and modifying gameplay. This is the reference the [Mods](./mods.html) on this site are built with.
+Lua is the language behind Total Miner's modding API — a level below the built-in [command scripting](./scripting.html), and what the [Mods](./mods.html) on this site are built with.
 
 ---
 

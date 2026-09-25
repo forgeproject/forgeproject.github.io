@@ -57,8 +57,11 @@ A: See the [Mod Installation Guide](./mod-installation.html) for step-by-step in
 
 ## Scripting
 
-**Q: What language does Total Miner use for scripting?**  
-A: Lua. See the [Lua Documentation](./lua-docs.html) for examples and references.
+**Q: How do I script things in Total Miner?**  
+A: Two ways. For map triggers and simple logic, use the built-in command system — see the [Scripting Command Reference](./scripting.html). For deeper mods, Total Miner also has a Lua API — see the [Lua Documentation](./lua-docs.html).
+
+**Q: What's the difference between Scripting and Lua?**  
+A: Scripting is Total Miner's own command language (`Message`, `SetBlock`, `If`/`EndIf`, and so on) used directly in maps. Lua is a full modding API with classes, hooks, and data types, used to build the mods on this site.
 
 ---
 
