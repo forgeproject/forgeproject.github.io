@@ -13,7 +13,7 @@ description: "ForgeProject — Total Miner maps, mods, Lua, scripting, and tutor
 <h1 align="center">ForgeProject – Total Miner Files</h1>
 
 <p align="center">
-Maps, mods, Lua scripting docs, and tutorials for Total Miner — free, and organized so you can find what you need fast.
+Maps, mods, Lua, scripting, and tutorials for Total Miner — free, and organized so you can find what you need fast.
 </p>
 
 ---
