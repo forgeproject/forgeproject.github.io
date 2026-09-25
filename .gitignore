@@ -25,6 +25,10 @@ Desktop.ini
 # ---------------------------------------------
 # Editor / IDE Junk
 # ---------------------------------------------
+# Visual Studio
+.vs/
+*.sln.DotSettings
+
 # VS Code
 .vscode/
 .history/
