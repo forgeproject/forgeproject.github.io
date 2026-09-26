@@ -5,16 +5,16 @@ Source for the **ForgeProject Total Miner Files** site — maps, mods, a Lua scr
 
 **Live site:** https://forgeproject.net
 
-## What's inside
-
-- [Maps](./maps.md) — ready-to-play worlds
-- [Mods](./mods.md) — custom mods
-- [Mod Installation Guide](./mod-installation.md) - Install instructions
-- [Scripting Reference](./scripting.md) — built-in commands for scripting 
-- [Lua Reference](./lua-docs.md) — modding API, and examples
-- [Tutorials](./tutorials.md) — Dig Deep, Survival, and general gameplay
-- [FAQ](./faq.md)
-- [Other Resources](./other.md)
+| Section | What's there |
+|---|---|
+| [Maps](./maps.html) | Ready-to-play worlds for exploration or server hosting |
+| [Mods](./mods.html) | Custom mods and add-ons, built on the Lua scripting API below |
+| [Mod Installation Guide](./mod-installation.html) | Step-by-step setup for any mod on this site |
+| [Scripting Reference](./scripting.html) | Total Miner's built-in commands for map triggers and logic |
+| [Lua Reference](./lua-docs.html) | The modding API — interfaces, hooks, and examples |
+| [Tutorials](./tutorials.html) | Guides for Dig Deep, Survival, and general gameplay |
+| [FAQ](./faq.html) | Quick answers about maps, mods, scripting, and this site |
+| [Other Resources](./other.html) | Everything else — tools, references, misc files |
 
 ## Quick Links
 
