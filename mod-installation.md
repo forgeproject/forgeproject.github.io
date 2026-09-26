@@ -33,7 +33,7 @@ Step-by-step instructions for installing mods in Total Miner.
 
 ## Overview
 
-Mods add new features, scripts, and gameplay mechanics to Total Miner. This guide explains how to install them safely.
+- Mods add new features, scripts, and gameplay mechanics to Total Miner. This guide explains how to install them safely.
 
 ---
 
