@@ -28,9 +28,7 @@ New tutorials will be added as they are completed.
 - [Quick start](#quick-start)
 - [Status](#status)
 - [Available Tutorials](#available-tutorials)
-- [Bugs and feature requests](#bugs-and-feature-requests)
 - [Contributing](#contributing)
-- [Community](#community)
 - [Versioning](#versioning)
 - [Admins](#admins)
 
