@@ -48,15 +48,15 @@ Maps will appear in the `/maps/` folder once added.
 
 ## Status
 
-Currently gathering and organizing maps.
-Looking for creators who want their maps featured here.
+- Currently gathering and organizing maps.
+- Looking for creators who want their maps featured here.
 
 ---
 
 ## Available Maps
 
-No maps uploaded yet.
-Check back soon — new content is being prepared!
+- No maps uploaded yet.
+- Check back soon — new content is being prepared!
 
 ---
 
