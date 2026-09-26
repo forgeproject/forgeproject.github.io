@@ -29,6 +29,8 @@ A beginner-friendly guide to Dig Deep mode in Total Miner—progression, mining,
 - [Mining Tips](#mining-tips)
 - [Base Building](#base-building)
 - [Common Mistakes](#common-mistakes)
+- [Contributing](#contributing)
+- [Admins](#admins)
 
 ---
 
