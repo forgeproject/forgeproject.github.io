@@ -48,9 +48,9 @@ Mods add new features, scripts, and gameplay mechanics to Total Miner. This guid
 ## Installation Steps
 
 1. **Download the mod** from the Mods page.  
-2. **Locate your Total Miner mods folder** (path depends on platform).  
+2. **Locate your Total Miner mods folder.
 3. **Copy the mod files** into the mods folder.  
-4. **Launch Total Miner** and enable the mod if required.  
+4. **Launch Total Miner** and enable the mod.
 
 ---
 
