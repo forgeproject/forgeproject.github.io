@@ -51,8 +51,6 @@ Looking for contributors who want to help expand this section.
 - [Dig Deep Guide](./dig-deep.html) — progression, mining, and survival tips for Dig Deep mode
 - [Survival Guide](./survival.html) — combat, crafting, and base defense for Survival mode
 
-Want to script custom gameplay instead of just playing it? Start with the [Scripting Reference](./scripting.html) for map triggers and logic, or the [Lua Reference](./lua-docs.html) for full mods.
-
 ---
 
 {% include site-footer.md %}
