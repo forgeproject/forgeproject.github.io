@@ -10,7 +10,7 @@ sitemap_exclude: true
 <h1 align="center">Total Miner Lua API Reference</h1>
 
 <p align="center">
-Complete function reference for Total Miner's Lua scripting API, organized by category.
+Complete function reference for Total Miner's Lua scripting API, organized by category. [Original source here](https://totalminer.github.io/index)
 </p>
 
 ---
