@@ -133,6 +133,7 @@ Looking for the Lua modding API instead? See the <a href="./lua-docs.html">Lua S
 | `UnbanPlayer(player)` | Removes ban from a player. |
 
 ---
+{% include site-footer.md %}
 
 
 ---
