@@ -30,7 +30,7 @@ If you have maps you'd like to share, feel free to contribute!
 - [Status](#status)
 - [Available Maps](#available-maps)
 - [Contributing](#contributing)
-- [Community](#community)
+
 
 ---
 
