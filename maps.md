@@ -29,11 +29,8 @@ If you have maps you'd like to share, feel free to contribute!
 - [Quick start](#quick-start)
 - [Status](#status)
 - [Available Maps](#available-maps)
-- [Bugs and feature requests](#bugs-and-feature-requests)
 - [Contributing](#contributing)
 - [Community](#community)
-- [Versioning](#versioning)
-- [Admins](#admins)
 
 ---
 
