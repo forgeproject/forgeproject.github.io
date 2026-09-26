@@ -29,7 +29,6 @@ New tutorials will be added as they are completed.
 - [Status](#status)
 - [Available Tutorials](#available-tutorials)
 - [Contributing](#contributing)
-- [Versioning](#versioning)
 - [Admins](#admins)
 
 ---
