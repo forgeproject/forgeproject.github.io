@@ -28,6 +28,8 @@ Common questions about maps, mods, scripting, and using this site.
 - [Mods](#mods)
 - [Scripting](#scripting)
 - [Site & Downloads](#site--downloads)
+- [Contributing](#contributing)
+- [Admins](#admins)
 
 ---
 
