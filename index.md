@@ -37,10 +37,10 @@ Total Miner has two ways to script things: the built-in [Scripting Command Refer
 
 ## Quick Start
 
-- **Latest ZIP (main branch):** https://github.com/forgeproject/forgeproject.github.io/archive/refs/heads/main.zip
-- **Official Total Miner Discord:** https://discord.gg/totalminer
-- **Bug Reports:** https://github.com/forgeproject/forgeproject.github.io/issues
-- **Feature Requests:** https://github.com/forgeproject/forgeproject.github.io/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement
+- **Latest ZIP (main branch):** [Download here](https://github.com/forgeproject/forgeproject.github.io/archive/refs/heads/main.zip)
+- **Official Total Miner Discord:** [Join here](https://discord.gg/totalminer)
+- **Bug Reports:** [Submit here](https://github.com/forgeproject/forgeproject.github.io/issues)
+- **Feature Requests:** [Submit here](https://github.com/forgeproject/forgeproject.github.io/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement)
 
 ---
 
