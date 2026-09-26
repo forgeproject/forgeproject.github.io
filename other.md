@@ -28,10 +28,7 @@ This section will grow as new resources are added.
 - [Quick start](#quick-start)
 - [Status](#status)
 - [Available Resources](#available-resources)
-- [Bugs and feature requests](#bugs-and-feature-requests)
 - [Contributing](#contributing)
-- [Community](#community)
-- [Versioning](#versioning)
 - [Admins](#admins)
 
 ---
