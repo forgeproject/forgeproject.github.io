@@ -38,7 +38,7 @@ Dig Deep is a finite-resource survival mode set across 2,968 blocks of depth. Yo
 
 ---
 
-##Getting Started
+## Getting Started
 
 Find a safe starting area
 Gather basic resources (wood, stone)
@@ -47,7 +47,7 @@ Light your surroundings with torches
 
 ---
 
-##Progression
+## Progression
 
 Wood → Iron → Steel → Greenstone Gold → Diamond → Ruby → Titanium
 Unlock better tools and armor as you upgrade through each tier.
@@ -57,7 +57,7 @@ Keep an eye out for rare items: Amulet of Flight, Ten League Boots, Shield Badge
 
 ---
 
-##Mining Tips
+## Mining Tips
 
 Use staircases or shafts to move safely.
 Mark paths with torches or signs.
@@ -66,7 +66,7 @@ Watch for mobs spawning at night — stay lit up and armed.
 
 ---
 
-##Base Building
+## Base Building
 
 Build near resources but in a safe area.
 Add storage, crafting stations, and defensive walls.
