@@ -33,50 +33,43 @@ A beginner-friendly guide to Dig Deep mode in Total Miner—progression, mining,
 ---
 
 ## Overview
-
-Dig Deep is Total Miner’s progression-focused mode where you mine, craft, and explore to unlock new materials and tools.
-
----
-
-## Getting Started
-
-- **Find a safe starting area**  
-- **Gather basic resources** (wood, stone)  
-- **Craft tools** (pickaxe, shovel, axe)  
-- **Light your surroundings** with torches  
+Dig Deep is a finite-resource survival mode set across 2,968 blocks of depth. Your goal: reach the bottom while collecting blueprints, gathering resources, and building along the way. Watch out for mobs that spawn at night, and be ready to upgrade your tools as you descend — rock layers get tougher to mine the deeper you go. Visit the Block Shop and Item Shop to buy what you need to keep pushing forward. Along the way, you can unlock exclusive avatars found only in this mode, like Carpenter, Knight, Cyborg, Sage, and more. 
 
 ---
 
-## Progression
-
-- **Stone → Copper → Iron → Gold → Diamond**  
-- Unlock better tools and armor as you go deeper.  
-- Explore caves carefully—bring torches, food, and weapons.
-
----
-
-## Mining Tips
-
-- **Use staircases or shafts** to move safely.  
-- **Mark paths** with torches or signs.  
-- **Carry spare tools** and blocks for emergency building.  
+##Getting Started
+Find a safe starting area
+Gather basic resources (wood, stone)
+Craft tools (pickaxe, shovel, hatchet)
+Light your surroundings with torches
 
 ---
 
-## Base Building
+##Progression
+Wood → Iron → Steel → Greenstone Gold → Diamond → Ruby → Titanium
+Unlock better tools and armor as you upgrade through each tier.
+Rock layers get tougher to mine the deeper you go, so keep your tools upgraded to match.
+Explore caves carefully — bring torches, food, and weapons.
+Keep an eye out for rare items: Amulet of Flight, Ten League Boots, Shield Badge, and Water Talisman.
 
-- Build near **resources** but in a **safe area**.  
-- Add **storage**, **crafting stations**, and **defensive walls**.  
-- Keep **beds** and **lighting** to avoid mobs.
+---
+
+##Mining Tips
+Use staircases or shafts to move safely.
+Mark paths with torches or signs.
+Carry spare tools and blocks for emergency building.
+Watch for mobs spawning at night — stay lit up and armed.
 
 ---
 
-## Common Mistakes
-
-- Digging straight down  
-- Ignoring armor and weapons  
-- Exploring caves without supplies  
+##Base Building
+Build near resources but in a safe area.
+Add storage, crafting stations, and defensive walls.
+Keep beds and lighting to avoid mobs.
+Stock up at the Block Shop and Item Shop for anything you're missing.
 
 ---
+
+
 
 [← Back to Home](./)
