@@ -41,5 +41,17 @@ Maps, mods, Lua, scripting, and tutorials for Total Miner — free, and organize
 - **Feature Requests:** [Submit here](https://github.com/forgeproject/forgeproject.github.io/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement)
 
 ---
+A special Thanks 
+|---|---|
 
+Hey everyone,
+
+I just wanted to take a moment to say thank you to this community. I genuinely wouldn't have made it this far without all of you — the support, the feedback, and the passion you all bring to this game means more than I can put into words.
+
+A special thank you to the testers and devs who took a chance on me and gave me the opportunity to become a tester myself. That trust and opportunity has meant the world to me, and I don't take it for granted.
+
+Whether you've been here from the beginning or just joined recently, you're part of what makes this community special. Thank you for everything.
+
+— B1ack W1dow 
+---
 {% include site-footer.md %}
