@@ -1,8 +1,8 @@
 ## Contributing
 
-1. Fork the repository
-2. Add your files to the matching folder
-3. Submit a pull request
+- Fork the repository
+- Add your files to the matching folder
+- Submit a pull request
 
 Or reach out directly to [`B1ack W1dow`](https://www.youtube.com/@TheIndiePlayer).
 
