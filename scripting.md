@@ -134,7 +134,7 @@ Looking for the Lua modding API instead? See the <a href="./lua-docs.html">Lua S
 
 ---
 
-**Want deeper control over gameplay — custom hooks, damage modification, actor behavior?** See the [Lua Scripting Reference](./lua-docs.html). **Want to install a mod someone else built?** See the [Mod Installation Guide](./mod-installation.html).
+**Want deeper control over gameplay be sure to check out the [Lua Reference](./lua-docs.html). **Want to install a mod someone else built?** See the [Mod Installation Guide](./mod-installation.html).
 
 ---
 
