@@ -35,14 +35,14 @@ New tutorials will be added as they are completed.
 
 ## Quick start
 
-More tutorials will appear here as they're written.
+-More tutorials will appear here as they're written.
 
 ---
 
 ## Status
 
-Currently writing new tutorials.
-Looking for contributors who want to help expand this section.
+- Currently writing new tutorials.
+- Looking for contributors who want to help expand this section.
 
 ---
 
