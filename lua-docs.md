@@ -443,3 +443,11 @@ General getter functions.
 - **`get_viewport_height`** — Get the viewport height (in pixels).
 - **`get_actor_avatar`** — Get the avatar of the context actor.
 - **`get_text`** — Get the text of a block (Sign, Book, etc).
+
+---
+{% include site-footer.md %}
+
+
+---
+
+[← Back to Home](./)
