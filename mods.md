@@ -32,7 +32,6 @@ If you have mods you'd like to share, feel free to contribute!
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Contributing](#contributing)
 - [Community](#community)
-- [Versioning](#versioning)
 - [Admins](#admins)
 
 ---
