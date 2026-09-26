@@ -1,3 +1,5 @@
+---
+title: "Survival Guide"
 layout: default
 description: "Guide to Survival mode in Total Miner"
 url: /survival.html
@@ -26,6 +28,7 @@ Learn how to survive, build, and thrive in Survival mode—combat, crafting, and
 - [Crafting Essentials](#crafting-essentials)
 - [Combat Tips](#combat-tips)
 - [Base Defense](#base-defense)
+- [Skills Mode](#skills-mode)
 - [Long-Term Goals](#long-term-goals)
 
 ---
@@ -71,6 +74,33 @@ Survival mode is built for long-term play — you're not racing to the bottom, y
 - **Add traps and elevated positions** — traps thin out mobs before they reach your walls, and elevated spots give you a safe vantage point to fight from.
 - **Plan for expansion** — since maps can stretch up to 8192x8192, build with room to grow. A base that's boxed in early gets harder to expand later.
 - **Section off your base** — as it grows, separate areas for storage, crafting, and living space keep things organized and easier to defend piece by piece.
+
+---
+
+## Skills Mode
+
+When creating your world, you can enable Skills Mode — either locally for a single world or globally across all your worlds. With it turned on, you won't have full access to mining or using everything right away; instead, you'll need to level up individual skills before you can make full use of them.
+
+- **How it works** — each skill starts low and levels up as you use it, gradually unlocking what you can mine, build, or use tied to that skill. Until a skill is leveled up enough, certain blocks, tools, or actions tied to it stay restricted.
+- **Local vs. Global** — a local setting only affects the world it's enabled on, while a global setting applies your skill levels across every world you play, so progress carries over.
+- **Skills you can level:**
+  - Combat
+  - Health
+  - Strength
+  - Attack
+  - Defence
+  - Ranged
+  - Mining
+  - Digging
+  - Chopping
+  - Building
+  - Crafting
+  - Smelting
+  - Smithing
+  - Farming
+  - Cooking
+  - Looting
+- **Plan around it** — since this mode gates what you can do until you've leveled up, factor early playtime into building up the skills you'll rely on most, whether that's Mining and Digging for resource gathering or Combat and Defence for surviving encounters.
 
 ---
 
