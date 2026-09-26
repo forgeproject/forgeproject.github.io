@@ -68,7 +68,7 @@ A: Scripting is Total Miner's own command language (`Message`, `SetBlock`, `If`/
 ## Site & Downloads
 
 **Q: Where can I download everything at once?**  
-A: Use the main repo ZIP from the home page Quick Start section.
+A: - **Latest ZIP (main branch):** [Download here](https://github.com/forgeproject/forgeproject.github.io/archive/refs/heads/main.zip)
 
 ---
 
