@@ -77,5 +77,6 @@ Survival mode focuses on staying alive against enemies while managing resources 
 - Explore dangerous areas with better gear  
 
 ---
+{% include site-footer.md %}
 
 [← Back to Home](./)
