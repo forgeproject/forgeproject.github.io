@@ -33,7 +33,7 @@ Maps, mods, Lua, scripting, and tutorials for Total Miner — free, and organize
 
 ---
 
-## Quick Start
+## Useful links
 
 - **Latest ZIP (main branch):** [Download here](https://github.com/forgeproject/forgeproject.github.io/archive/refs/heads/main.zip)
 - **Official Total Miner Discord:** [Join here](https://discord.gg/totalminer)
