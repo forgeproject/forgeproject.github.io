@@ -72,4 +72,8 @@ A: - **Latest ZIP (main branch):** [Download here](https://github.com/forgeproje
 
 ---
 
+{% include site-footer.md %}
+
+---
+
 [← Back to Home](./)
