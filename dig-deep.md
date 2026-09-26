@@ -28,7 +28,7 @@ A beginner-friendly guide to Dig Deep mode in Total Miner—progression, mining,
 - [Progression](#progression)
 - [Mining Tips](#mining-tips)
 - [Base Building](#base-building)
-- [Blueprints & Unlocks](#blueprints-&-unlocks)
+- [Blueprints](#blueprints)
 - [Contributing](#contributing)
 - [Admins](#admins)
 
@@ -84,7 +84,7 @@ Consider building rest points at major depth milestones — a small lit shelter 
 
 ---
 
-## Blueprints & Unlocks
+## Blueprints
 Blueprints are scattered throughout the depths and are required to unlock items in the Block Shop and Item Shop.
 Since almost everything starts locked, prioritizing blueprint collection early opens up better tools, blocks, and gear sooner.
 Some blueprints may be tied to specific depths or material tiers, so don't rush past an area too quickly — take time to explore before moving deeper.
