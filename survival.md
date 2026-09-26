@@ -30,6 +30,8 @@ Learn how to survive, build, and thrive in Survival mode—combat, crafting, and
 - [Base Defense](#base-defense)
 - [Skills Mode](#skills-mode)
 - [Long-Term Goals](#long-term-goals)
+- [Contributing](#contributing)
+- [Admins](#admins)
 
 ---
 
