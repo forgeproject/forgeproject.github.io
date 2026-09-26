@@ -22,8 +22,6 @@ New mods will be added as they are completed.
 If you have mods you'd like to share, feel free to contribute!
 </p>
 
-Mods here are built on Total Miner's Lua modding API — see the [Lua Scripting Reference](./lua-docs.html) for the hooks and interfaces a mod uses, or the [Mod Installation Guide](./mod-installation.html) to install one. For simpler map logic (no full mod required), see the built-in [Scripting Command Reference](./scripting.html) instead.
-
 ---
 
 ## Table of contents
