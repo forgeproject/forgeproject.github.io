@@ -38,8 +38,7 @@ If you have mods you'd like to share, feel free to contribute!
 
 Download the latest version of the repository:
 
-- **Latest ZIP:**
-  https://github.com/forgeproject/forgeproject.github.io/archive/refs/heads/main.zip
+- **Latest ZIP (main branch):** [Download here](https://github.com/forgeproject/forgeproject.github.io/archive/refs/heads/main.zip)
 
 Mods will appear in the `/mods/` folder once added.
 
