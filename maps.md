@@ -38,8 +38,8 @@ If you have maps you'd like to share, feel free to contribute!
 
 Download the latest version of the repository:
 
-- **Latest ZIP:**
-  https://github.com/forgeproject/forgeproject.github.io/archive/refs/heads/main.zip
+- **Latest ZIP (main branch):** [Download here](https://github.com/forgeproject/forgeproject.github.io/archive/refs/heads/main.zip)
+
 
 Maps will appear in the `/maps/` folder once added.
 
