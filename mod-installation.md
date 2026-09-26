@@ -66,6 +66,7 @@ Mods add new features, scripts, and gameplay mechanics to Total Miner. This guid
 - If the game crashes, remove the mod and try again.  
 - Make sure you’re using the correct version of the game.  
 - Check for conflicting mods.
+  {% include site-footer.md %}
 
 ---
 
