@@ -29,9 +29,7 @@ If you have mods you'd like to share, feel free to contribute!
 - [Quick start](#quick-start)
 - [Status](#status)
 - [Available Mods](#available-mods)
-- [Bugs and feature requests](#bugs-and-feature-requests)
 - [Contributing](#contributing)
-- [Community](#community)
 - [Admins](#admins)
 
 ---
