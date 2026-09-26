@@ -42,7 +42,6 @@ Maps, mods, Lua, scripting, and tutorials for Total Miner — free, and organize
 
 ---
 ## A special Thanks 
----
 
 Hey everyone,
 
@@ -53,5 +52,6 @@ A special thank you to the testers and devs who took a chance on me and gave me 
 Whether you've been here from the beginning or just joined recently, you're part of what makes this community special. Thank you for everything.
 
 B1ack W1dow 
+
 ---
 {% include site-footer.md %}
