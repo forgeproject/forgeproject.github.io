@@ -13,4 +13,4 @@ Or reach out directly to [`B1ack W1dow`](https://www.youtube.com/@TheIndiePlayer
 **B1ack W1dow**
 
 - [Twitter](https://x.com/F0rgePr0ject)
-- [Discord](https://discord.com/invite/xgrfVgD24z)
+- [My Discord Server](https://discord.com/invite/xgrfVgD24z)
