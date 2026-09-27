@@ -382,3 +382,8 @@ Contains the data for this particle template.
 - **`EndColor`** (`Color`) — The color of the particle at the end of its duration. The particle fades from the `StartColor` to this color.
 - **`WindFactor`** (`float`) — How much wind moves this particle.
 - **`Gravity`** (`float`) — How much gravity affects this particle.
+
+---
+
+
+[← Back to Home](./)
