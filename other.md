@@ -48,7 +48,7 @@ Currently collecting miscellaneous resources.
 ## Available Resources
 
 No resources uploaded yet.
-Check back soon!
+<a href="https://totalminer.github.io/index" target="_blank" rel="noopener noreferrer">Total Miner Reference Documentation</a>
 
 ---
 
