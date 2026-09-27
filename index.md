@@ -24,7 +24,6 @@ Maps, mods, Lua, scripting, and tutorials for Total Miner — free, and organize
 |---|---|
 | [Maps](./maps.html) | Ready-to-play worlds for exploration or server hosting |
 | [Mods](./mods.html) | Custom mods and add-ons, built on the Lua scripting API below |
-| [Mod Installation Guide](./mod-installation.html) | Step-by-step setup for any mod on this site |
 | [Scripting Reference](./scripting.html) | Total Miner's built-in commands for map triggers and logic |
 | [Lua Reference](./lua-docs.html) | The modding API — interfaces, hooks, and examples |
 | [XML Reference](./xml-docs.html) | The XML modding reference — data types, items, blocks, NPCs, and particles |
