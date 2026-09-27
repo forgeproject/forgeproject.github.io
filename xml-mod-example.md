@@ -28,14 +28,14 @@ A worked example mod using the fields documented in the XML Modding Reference.
 
 ## Overview
 
-This example mod does four things, each using the files described in the reference doc:
+This example mod does four things:
 
-1. Adds a new weapon, **Frost Blade**, with its own combat stats, swing timing, sound, skill requirement, and crafting recipe.
-2. Modifies the existing **Rhyolite** block to make it slightly more resistant and give it a faint glow.
-3. Adds a new hostile NPC, **Frost Wraith**, with its own AI, audio, level, and physics data, and a loot table that can drop the Frost Blade.
-4. Adds a **FrostSpark** particle template that the Frost Wraith (or a Particle Emitter block) could use.
+Adds a new weapon, Frost Blade, with its own combat stats, swing timing, sound, skill requirement, and crafting recipe.
+Modifies the existing Rhyolite block to make it slightly more resistant and give it a faint glow.
+Adds a new hostile NPC, Frost Wraith, with its own AI, audio, level, and physics data, and a loot table that can drop the Frost Blade.
+Adds a FrostSpark particle template that the Frost Wraith (or a Particle Emitter block) could use.
 
-Each section below shows the relevant snippet for every file it touches. Field names and types match the reference doc exactly — swap in your own values, item IDs, and block IDs as needed.
+Each section below shows the relevant snippet for every file it touches. Swap in your own values, item IDs, and block IDs as needed.
 
 ---
 
