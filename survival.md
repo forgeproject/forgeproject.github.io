@@ -30,8 +30,6 @@ Learn how to survive, build, and thrive in Survival mode—combat, crafting, and
 - [Base Defense](#base-defense)
 - [Skills Mode](#skills-mode)
 - [Long-Term Goals](#long-term-goals)
-- [Contributing](#contributing)
-- [Admins](#admins)
 
 ---
 
@@ -114,6 +112,6 @@ When creating your world, you can enable Skills Mode — either locally for a si
 - **Build for the long haul** — Survival mode rewards steady growth over time, so treat your base as an ongoing project rather than something to "finish."
 
 ---
-{% include site-footer.md %}
+
 
 [← Back to Home](./)
