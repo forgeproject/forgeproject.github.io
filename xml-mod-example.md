@@ -346,3 +346,7 @@ This particle could be referenced by a Particle Emitter block, or emitted from t
 
 - Element/root tag names above (`<Item>`, `<Actor>`, `<Block>`, etc.) are illustrative — match whatever wrapper structure your Total Miner mod loader expects for each file; 
 - IDs like `FrostBlade`, `FrostWraith`, `FrostWraithAI`, `FrostWraithLevel`, `FrostWraithPhysics`, and `FrostSpark` are custom and must stay consistent across every file that references them.
+
+  ---
+
+  [← Back to Home](./)
