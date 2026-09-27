@@ -338,7 +338,7 @@ To also change Rhyolite's shop name, description, or price, add an `ItemData.xml
 </Particle>
 ```
 
-This particle could be referenced by a Particle Emitter block, or emitted from the Frost Wraith's script/AI to sell the "cold" theme.
+This particle could be referenced by a Particle Emitter block, or emitted from the Frost Wraith's script to sell the "cold" theme.
 
 ---
 
