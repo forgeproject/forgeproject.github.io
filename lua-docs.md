@@ -445,9 +445,6 @@ General getter functions.
 - **`get_text`** — Get the text of a block (Sign, Book, etc).
 
 ---
-{% include site-footer.md %}
 
-
----
 
 [← Back to Home](./)
