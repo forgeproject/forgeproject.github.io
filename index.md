@@ -27,6 +27,7 @@ Maps, mods, Lua, scripting, and tutorials for Total Miner — free, and organize
 | [Mod Installation Guide](./mod-installation.html) | Step-by-step setup for any mod on this site |
 | [Scripting Reference](./scripting.html) | Total Miner's built-in commands for map triggers and logic |
 | [Lua Reference](./lua-docs.html) | The modding API — interfaces, hooks, and examples |
+| [XML Reference](./xml-docs.html) | The XML modding reference — data types, items, blocks, NPCs, and particles |
 | [Tutorials](./tutorials.html) | Guides for Dig Deep, Survival, and general gameplay |
 | [FAQ](./faq.html) | Quick answers about maps, mods, scripting, and this site |
 | [Other Resources](./other.html) | Everything else — tools, references, misc files |
@@ -55,3 +56,4 @@ B1ack W1dow
 
 ---
 {% include site-footer.md %}
+
