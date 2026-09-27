@@ -50,6 +50,7 @@ New tutorials will be added as they are completed.
 
 - [Dig Deep Guide](./dig-deep.html) — progression, mining, and survival tips for Dig Deep mode
 - [Survival Guide](./survival.html) — combat, crafting, and base defense for Survival mode
+- [Mod Installation Guide](./mod-installation.html)
 
 ---
 
