@@ -91,4 +91,4 @@ Some blueprints may be tied to specific depths or material tiers, so don't rush 
 
 ---
 
-[← Back to Home](./)
+[← Back to Home](.tutorials)
