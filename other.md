@@ -47,6 +47,7 @@ Currently collecting miscellaneous resources.
 
 ## Available Resources
 
+<a href="https://discord.gg/totalminer" target="_blank" rel="noopener noreferrer">Official Total Miner Discord</a>
 <a href="https://totalminer.github.io/index" target="_blank" rel="noopener noreferrer">Total Miner Reference Documentation</a>
 
 ---
