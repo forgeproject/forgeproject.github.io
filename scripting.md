@@ -16,7 +16,7 @@ sitemap_exclude: true
 <h1 align="center">Total Miner Scripting Command Reference</h1>
 
 <p align="center">
-Total Miner's built-in command-based scripting system for players, the world, NPCs, and game logic. The verified command inventory was extracted from the TMInfo game assemblies.
+Total Miner's built-in command-based scripting system for players, the world, NPCs, and game logic.
 </p>
 
 <p align="center">
@@ -58,7 +58,7 @@ The easiest way to learn is:
 4. Use `Else`, `Endif`, `Loop`, or `Exit` to control the result.
 5. Test the script in a copy of the map before attaching it to a live event.
 
-> **Important:** The TMInfo assemblies identify command names, but they do not provide complete argument documentation. Use the in-game script editor to confirm each command's parameter order, required values, and context.
+> **Important:** Use the in-game script editor to confirm each command's parameter order, required values, and context.
 
 ## How Scripts Work
 
@@ -76,7 +76,7 @@ Condition commands test game state. Put the commands that should run when the co
 
 ### Variables
 
-`Var` is the verified TMInfo variable command. Variable names and operations must be entered using the syntax accepted by the in-game editor. Do not assume that older names such as `SetVar`, `AddVar`, or `GlobalVar` are literal engine commands.
+`Var` is the variable command described in this reference. Variable names and operations must be entered using the syntax accepted by the in-game editor. Do not assume that older names such as `SetVar`, `AddVar`, or `GlobalVar` are literal engine commands.
 
 ## Common Script Patterns
 
@@ -109,7 +109,7 @@ Loop(<count>)
 <loop terminator>
 ```
 
-The loop terminator should be selected from the command offered by the editor. It is shown as a placeholder here because the assembly inventory does not identify the required loop-closing syntax.
+The loop terminator should be selected from the command offered by the editor. It is shown as a placeholder here because the exact loop-closing syntax should be confirmed in the editor.
 
 ## Worked Example
 
@@ -117,7 +117,7 @@ For a complete beginner-friendly command script, see the [Scripting Example](./s
 
 ## Command Reference
 
-The following inventory was extracted from `StudioForge.TotalMiner.dll` under `ScriptRuntime`. Commands are grouped by their primary purpose, although some commands can be used in more than one context.
+The following commands are grouped by their primary purpose, although some commands can be used in more than one context.
 
 ### Flow and Execution
 
@@ -182,7 +182,7 @@ These commands work with history, clans, CCTV, markers, waypoints, zones, and ca
 
 ### Runtime and Lua Interop
 
-The assemblies also expose runtime operations such as `QueueScript`, `ExecuteScript`, `CancelScript`, and `GetListOfQueuedScripts`. `InlineLua` and the runtime's Lua bridge connect command scripts to the Lua API.
+Runtime operations include `QueueScript`, `ExecuteScript`, `CancelScript`, and `GetListOfQueuedScripts`. `InlineLua` connects command scripts to the Lua API.
 
 For Lua functions covering blocks, inventory, NPCs, zones, history, HUD, and events, see the [Lua Scripting Reference](./lua-docs.html).
 

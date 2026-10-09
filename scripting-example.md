@@ -43,7 +43,7 @@ This example demonstrates a small shrine encounter:
 5. An NPC can be spawned as a guardian.
 6. The event is assigned to a block with `SetBlockScript`.
 
-The command names are verified engine identifiers. Argument order and event-specific values must be confirmed in the in-game editor.
+The command names are used by the command-scripting system. Argument order and event-specific values must be confirmed in the in-game editor.
 
 ## Basic Event Script
 
@@ -57,7 +57,7 @@ If the notification appears when the event runs, add the rest of the sequence on
 
 ## Check a Requirement
 
-Use a condition before changing the world. `IsBlock` and `Endif` are verified command names; the point and block arguments below are placeholders.
+Use a condition before changing the world. The point and block arguments below are placeholders.
 
 ```text
 IsBlock(<shrine_point>, <required_block>)
