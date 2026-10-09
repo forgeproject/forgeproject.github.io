@@ -18,7 +18,7 @@ New to Lua modding? See the <a href="./lua-example.html">Lua Mod Example</a> fir
 </p>
 
 <p align="center">
-<a href="./lua-docs.html">Lua</a> · <a href="./scripting.html">Command Scripting</a> · <a href="./xml-docs.html">XML Modding</a>
+<a href="./scripting.html">Command Scripting</a> · <a href="./xml-docs.html">XML Modding</a>
 </p>
 
 ---
@@ -60,7 +60,7 @@ New to Lua modding? See the <a href="./lua-example.html">Lua Mod Example</a> fir
 
 ## Start Here
 
-Lua functions are grouped by the kind of game system they control. Start with one small task, test it, and then combine functions into a larger mod. The [Lua Mod Example](./lua-example.html) demonstrates blocks, inventory, NPCs, particles, sounds, and event scripts together.
+Lua functions are grouped by the kind of game system they control. Start with one small task, test it, and then combine functions into a larger mod. The Lua Mod Example demonstrates blocks, inventory, NPCs, particles, sounds, and event scripts together.
 
 > **Important:** This reference documents function purposes, but some function signatures depend on the calling context. Confirm argument order and callback values in the original reference or in the game environment before publishing a mod.
 

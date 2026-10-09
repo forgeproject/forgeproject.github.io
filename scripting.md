@@ -20,11 +20,11 @@ Total Miner's built-in command-based scripting system for players, the world, NP
 </p>
 
 <p align="center">
-Looking for the Lua modding API instead? See the <a href="./lua-docs.html">Lua Scripting Reference</a>.
+Looking for the Lua modding API instead? See the Lua link in the navigation below.
 </p>
 
 <p align="center">
-<a href="./lua-docs.html">Lua</a> · <a href="./scripting.html">Command Scripting</a> · <a href="./xml-docs.html">XML Modding</a>
+<a href="./lua-docs.html">Lua</a> · <a href="./xml-docs.html">XML Modding</a>
 </p>
 
 ---
