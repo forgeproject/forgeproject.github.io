@@ -16,7 +16,7 @@ sitemap_exclude: true
 <h1 align="center">Total Miner Scripting Command Reference</h1>
 
 <p align="center">
-Total Miner's built-in, command-based scripting system — the commands used to script players, the world, NPCs, and game logic directly (for example, in map triggers), without writing a full mod. The verified command inventory below was extracted from the TMInfo game assemblies.
+Total Miner's built-in command-based scripting system for players, the world, NPCs, and game logic. The verified command inventory was extracted from the TMInfo game assemblies.
 </p>
 
 <p align="center">
@@ -27,179 +27,159 @@ Looking for the Lua modding API instead? See the <a href="./lua-docs.html">Lua S
 
 ## Table of contents
 
-- [Player Interaction](#player-interaction)
-- [World & Environment](#world--environment)
-- [Logic & Flow Control](#logic--flow-control)
-- [Variables](#variables)
-- [Triggers & Conditions](#triggers--conditions)
-- [NPC Control](#npc-control)
-- [Miscellaneous](#miscellaneous)
-- [Verified TMInfo Command Inventory](#verified-tminfo-command-inventory)
+- [Start Here](#start-here)
+- [How Scripts Work](#how-scripts-work)
+- [Common Script Patterns](#common-script-patterns)
+- [Command Reference](#command-reference)
+  - [Flow and Execution](#flow-and-execution)
+  - [Blocks and Regions](#blocks-and-regions)
+  - [World Queries](#world-queries)
+  - [NPCs and Actors](#npcs-and-actors)
+  - [Items, Inventory, and Skills](#items-inventory-and-skills)
+  - [Conditions and Variables](#conditions-and-variables)
+  - [HUD, Menus, and Permissions](#hud-menus-and-permissions)
+  - [Effects and World Presentation](#effects-and-world-presentation)
+  - [History, Clans, and Callbacks](#history-clans-and-callbacks)
+  - [Runtime and Lua Interop](#runtime-and-lua-interop)
 
 ---
 
-## Verified TMInfo Command Inventory
+## Start Here
 
-The following command names are present in `StudioForge.TotalMiner.dll` under `ScriptRuntime`. They are grouped by their primary purpose; some commands can be used in more than one type of script. The assembly metadata identifies command names but does not expose the complete argument documentation, so the exact parameter order and value types should be checked in the in-game script editor.
+Total Miner scripts are made from commands. A command performs an action, tests a condition, changes a value, or controls what runs next. Scripts can be attached to map events, blocks, zones, and other game systems.
 
-### Script flow and execution
+The easiest way to learn is:
 
-`Behaviour`, `Context`, `Else`, `Endif`, `Exit`, `InlineLua`, `Loop`, `Nop`, `Script`, `Wait`
+1. Start with one action, such as `Notify`, `SetBlock`, `Sound`, or `Teleport`.
+2. Add `Wait` when an action needs to happen later.
+3. Add a condition such as `IsBlock`, `HasItemData`, or `IsInZone`.
+4. Use `Else`, `Endif`, `Loop`, or `Exit` to control the result.
+5. Test the script in a copy of the map before attaching it to a live event.
 
-### Blocks, regions, and map editing
+> **Important:** The TMInfo assemblies identify command names, but they do not provide complete argument documentation. Use the in-game script editor to confirm each command's parameter order, required values, and context.
+
+## How Scripts Work
+
+### Commands
+
+Commands are listed here by their engine names, for example `SetBlock` and `NpcSpawn`. Names are case-sensitive in this reference. A command may require a player, actor, map point, region, item, block, or other context supplied by the event that started the script.
+
+### Values and context
+
+Common values include coordinates, block IDs, item IDs, NPC types, numbers, text, and variable names. The same command can behave differently depending on whether it runs from a player event, block event, NPC event, zone, or system script.
+
+### Conditions and branches
+
+Condition commands test game state. Put the commands that should run when the condition succeeds inside the corresponding conditional block, then close it with `Endif`.
+
+### Variables
+
+`Var` is the verified TMInfo variable command. Variable names and operations must be entered using the syntax accepted by the in-game editor. Do not assume that older names such as `SetVar`, `AddVar`, or `GlobalVar` are literal engine commands.
+
+## Common Script Patterns
+
+The following patterns are for learning and show the intent of a script. Replace argument placeholders with the form shown by the in-game script editor.
+
+### Action followed by a delay
+
+```text
+Notify("The door will open")
+Wait(<delay>)
+OpenBlock(<door>)
+```
+
+### Conditional action
+
+```text
+IsBlock(<point>, <block>)
+    Notify("The required block is present")
+Else
+    Notify("The required block is missing")
+Endif
+```
+
+### Repeated action
+
+```text
+Loop(<count>)
+    Particle(<effect>, <point>)
+    Wait(<delay>)
+<loop terminator>
+```
+
+The loop terminator should be selected from the command offered by the editor. It is shown as a placeholder here because the assembly inventory does not identify the required loop-closing syntax.
+
+## Command Reference
+
+The following inventory was extracted from `StudioForge.TotalMiner.dll` under `ScriptRuntime`. Commands are grouped by their primary purpose, although some commands can be used in more than one context.
+
+### Flow and Execution
+
+| Command | Use |
+|---|---|
+| `Behaviour`, `Context` | Control or inspect script execution context. |
+| `Else`, `Endif` | Select an alternate branch and close a conditional block. |
+| `Exit` | Stop the current script path. |
+| `InlineLua` | Run Lua from a command script. |
+| `Loop` | Repeat a script section. |
+| `Nop` | Perform no action. |
+| `Script` | Invoke or work with a script. |
+| `Wait` | Delay subsequent commands. |
+
+### Blocks and Regions
 
 `CopyBlock`, `CopyRegion`, `MoveBlock`, `MoveRegion`, `Paste`, `ReplaceRegion`, `SetBlock`, `SetBlockScript`, `SetEventScript`, `SetRegion`, `SetRegionAux`, `SetSphere`, `SetSwitch`, `SetText`, `SetTexture`
 
-### Block state and world queries
+Use these commands for individual blocks, cubic regions, block metadata, scripts attached to blocks, switches, and event scripts.
+
+### World Queries
 
 `CaveIn`, `Explosion`, `Fog`, `Hail`, `Intersect`, `IsBlock`, `IsBlockDeliveringPower`, `IsBlockEdited`, `IsBlockLightSource`, `IsBlockOpen`, `IsBlockOre`, `IsBlockPassable`, `IsBlockReceivingPower`, `IsBlockResistance`, `IsBlockSolid`, `IsBlockTexture`, `OpenBlock`, `SetPower`
 
-### NPCs and actors
+These commands inspect or change block state, power, lighting, weather effects, explosions, and other world conditions.
+
+### NPCs and Actors
 
 `HasActor`, `NpcHealth`, `NpcSpawn`, `NpcState`, `SetNameplate`
 
-### Items, inventory, and equipment
+Use `NpcSpawn` for spawning, `NpcHealth` for health changes, and `NpcState` for NPC state operations. `HasActor` tests whether the required actor context exists.
 
-`CanEquip`, `Equip`, `Inventory`, `Item`, `Pickup`, `Unequip`, `SetItemData`
+### Items, Inventory, and Skills
 
-### Player skills and statistics
+`CanEquip`, `Equip`, `Inventory`, `Item`, `Pickup`, `Unequip`, `SetItemData`, `HasInventory`, `HasItemData`, `HasSkill`, `HasStatBonus`, `Health`, `HealthMod`, `Skill`, `SkillXP`
 
-`HasSkill`, `HasStatBonus`, `Health`, `HealthMod`, `Skill`, `SkillXP`
+These commands cover equipment, item data, inventory, health, skills, skill experience, and related checks.
 
-### Conditions and state tests
+### Conditions and Variables
 
-`HasAction`, `HasHistory`, `HasInventory`, `HasItemData`, `HasMarker`, `HasPermission`, `IsAvatar`, `IsClan`, `IsClock`, `IsCombat`, `IsDayTime`, `IsDistance`, `IsEquipped`, `IsFiniteResources`, `IsGamerCount`, `IsInZone`, `IsLight`, `IsNameplate`, `IsNightTime`, `IsNpcCount`, `IsRandom`, `IsSkills`, `IsTime`, `IsVar`
+`HasAction`, `HasHistory`, `HasMarker`, `HasPermission`, `IsAvatar`, `IsClan`, `IsClock`, `IsCombat`, `IsDayTime`, `IsDistance`, `IsEquipped`, `IsFiniteResources`, `IsGamerCount`, `IsInZone`, `IsLight`, `IsNameplate`, `IsNightTime`, `IsNpcCount`, `IsRandom`, `IsSkills`, `IsTime`, `IsVar`, `Random`, `Var`
 
-### Variables and randomization
+Use these commands to test game state, permissions, time, distance, zones, history, and variables. `Random` can be used when a script needs nondeterministic behavior.
 
-`Random`, `Var`
-
-### Regions, zones, markers, and waypoints
-
-`Marker`, `SetRegion`, `SetRegionAux`, `SetSphere`, `Waypoint`, `Zone`
-
-### HUD, menus, and player interaction
+### HUD, Menus, and Permissions
 
 `HUDBar`, `HUDCounter`, `HUDShape`, `HUDText`, `Input`, `Menu`, `MessageBox`, `Notify`, `Permission`, `Kick`, `SetReach`
 
-### Audio, particles, weather, and appearance
+These commands provide player-facing messages and interfaces, HUD elements, permission checks, player removal, and reach settings.
 
-`Particle`, `ParticleEmitter`, `Rain`, `SkyColor`, `Sound`, `TintColor`
+### Effects and World Presentation
 
-### Clans, history, and game systems
+`Particle`, `ParticleEmitter`, `Rain`, `SetHour`, `SkyColor`, `Sound`, `Teleport`, `TintColor`
 
-`Clan`, `Commit`, `CCTV`, `History`
+These commands control particles, particle emitters, weather, time, sound, sky color, tints, and movement.
 
-### Script callbacks and runtime control
+### History, Clans, and Callbacks
 
-`ModCallback`, `SetBlockScript`, `SetEventScript`, `SetHour`
+`CCTV`, `Clan`, `Commit`, `History`, `Marker`, `ModCallback`, `Waypoint`, `Zone`
 
-### Direct movement and world actions
+These commands work with history, clans, CCTV, markers, waypoints, zones, and callbacks. `SetBlockScript` and `SetEventScript` are listed under [Blocks and Regions](#blocks-and-regions) because they attach scripts to game objects and events.
 
-`Teleport`
+### Runtime and Lua Interop
 
-The assemblies also expose script runtime operations such as `QueueScript`, `ExecuteScript`, `CancelScript`, and `GetListOfQueuedScripts`, plus Lua bridge functions for actor state, NPC spawning, event scripts, block scripts, and zone scripts. The Lua API is documented separately in the [Lua Scripting Reference](./lua-docs.html).
+The assemblies also expose runtime operations such as `QueueScript`, `ExecuteScript`, `CancelScript`, and `GetListOfQueuedScripts`. `InlineLua` and the runtime's Lua bridge connect command scripts to the Lua API.
 
-The short command tables below are retained as a beginner-friendly overview. Names in those tables that are not listed in the verified inventory are descriptive shorthand and should not be assumed to be literal TMInfo command names.
-
----
-
-## Player Interaction
-
-| Command | Definition |
-|---|---|
-| `Message("text")` | Displays a message to the player's screen. |
-| `GiveItem(player, itemID, quantity)` | Gives the specified item to the player. |
-| `RemoveItem(player, itemID, quantity)` | Removes an item from the player's inventory. |
-| `Teleport(player, x, y, z)` | Moves the player to specific coordinates. |
-| `SetHealth(player, value)` | Sets the player's health to a specific value. |
-| `AddHealth(player, value)` | Adds health to the player. |
-| `SetMana(player, value)` | Sets the player's mana level. |
-| `AddMana(player, value)` | Adds mana to the player. |
-| `SetXP(player, value)` | Sets the player's experience points. |
-| `AddXP(player, value)` | Adds experience points to the player. |
-| `SetLevel(player, skill, value)` | Sets the player's skill level. |
-| `AddLevel(player, skill, value)` | Adds to the player's skill level. |
+For Lua functions covering blocks, inventory, NPCs, zones, history, HUD, and events, see the [Lua Scripting Reference](./lua-docs.html).
 
 ---
-
-## World & Environment
-
-| Command | Definition |
-|---|---|
-| `SetBlock(x, y, z, blockID)` | Places a block at coordinates. |
-| `RemoveBlock(x, y, z)` | Removes a block at coordinates. |
-| `SpawnNPC(npcType, x, y, z)` | Spawns an NPC at coordinates. |
-| `KillNPC(npcID)` | Removes an NPC from the world. |
-| `SetTime(value)` | Sets the world time (0–24000). |
-| `SetWeather(type)` | Changes weather (e.g., Clear, Rain). |
-| `PlaySound(soundID, x, y, z)` | Plays a sound at coordinates. |
-| `SpawnParticle(particleID, x, y, z)` | Creates a particle effect. |
-
----
-
-## Logic & Flow Control
-
-| Command | Definition |
-|---|---|
-| `If(condition)` | Starts a conditional block. |
-| `Else` | Executes if the `If` condition fails. |
-| `EndIf` | Ends a conditional block. |
-| `Loop(count)` | Repeats commands a set number of times. |
-| `EndLoop` | Ends a loop block. |
-| `Wait(ticks)` | Pauses script execution for a set time. |
-| `Goto(label)` | Jumps to a labeled section of the script. |
-| `Label(name)` | Marks a location for `Goto`. |
-
----
-
-## Variables
-
-| Command | Definition |
-|---|---|
-| `SetVar(name, value)` | Creates or updates a variable. |
-| `AddVar(name, value)` | Adds to a variable's value. |
-| `SubVar(name, value)` | Subtracts from a variable's value. |
-| `IfVar(name, operator, value)` | Checks a variable against a value. |
-| `GlobalVar(name, value)` | Creates a variable accessible across scripts. |
-
----
-
-## Triggers & Conditions
-
-| Command | Definition |
-|---|---|
-| `PlayerOnBlock(blockID)` | True if player is standing on a block. |
-| `PlayerHasItem(itemID)` | True if player has an item. |
-| `NPCNear(player, npcType, radius)` | True if NPC is near player. |
-| `BlockExists(x, y, z)` | True if block exists at coordinates. |
-| `TimeIs(value)` | True if world time matches value. |
-
----
-
-## NPC Control
-
-| Command | Definition |
-|---|---|
-| `SetNPCHealth(npcID, value)` | Sets NPC health. |
-| `MoveNPC(npcID, x, y, z)` | Moves NPC to coordinates. |
-| `NPCSay(npcID, "text")` | Makes NPC speak. |
-| `NPCFollow(npcID, player)` | Makes NPC follow a player. |
-| `NPCAttack(npcID, target)` | Makes NPC attack a target. |
-
----
-
-## Miscellaneous
-
-| Command | Definition |
-|---|---|
-| `SaveWorld()` | Saves the current world state. |
-| `LoadWorld(name)` | Loads a saved world. |
-| `KickPlayer(player)` | Removes a player from the game. |
-| `BanPlayer(player)` | Bans a player from the server. |
-| `UnbanPlayer(player)` | Removes ban from a player. |
-
----
-
 
 [← Back to Home](./)
