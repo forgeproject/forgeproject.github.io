@@ -16,7 +16,7 @@ sitemap_exclude: true
 <h1 align="center">Total Miner Scripting Command Reference</h1>
 
 <p align="center">
-Total Miner's built-in, command-based scripting system — the commands used to script players, the world, NPCs, and game logic directly (for example, in map triggers), without writing a full mod.
+Total Miner's built-in, command-based scripting system — the commands used to script players, the world, NPCs, and game logic directly (for example, in map triggers), without writing a full mod. The verified command inventory below was extracted from the TMInfo game assemblies.
 </p>
 
 <p align="center">
@@ -34,6 +34,73 @@ Looking for the Lua modding API instead? See the <a href="./lua-docs.html">Lua S
 - [Triggers & Conditions](#triggers--conditions)
 - [NPC Control](#npc-control)
 - [Miscellaneous](#miscellaneous)
+- [Verified TMInfo Command Inventory](#verified-tminfo-command-inventory)
+
+---
+
+## Verified TMInfo Command Inventory
+
+The following command names are present in `StudioForge.TotalMiner.dll` under `ScriptRuntime`. They are grouped by their primary purpose; some commands can be used in more than one type of script. The assembly metadata identifies command names but does not expose the complete argument documentation, so the exact parameter order and value types should be checked in the in-game script editor.
+
+### Script flow and execution
+
+`Behaviour`, `Context`, `Else`, `Endif`, `Exit`, `InlineLua`, `Loop`, `Nop`, `Script`, `Wait`
+
+### Blocks, regions, and map editing
+
+`CopyBlock`, `CopyRegion`, `MoveBlock`, `MoveRegion`, `Paste`, `ReplaceRegion`, `SetBlock`, `SetBlockScript`, `SetEventScript`, `SetRegion`, `SetRegionAux`, `SetSphere`, `SetSwitch`, `SetText`, `SetTexture`
+
+### Block state and world queries
+
+`CaveIn`, `Explosion`, `Fog`, `Hail`, `Intersect`, `IsBlock`, `IsBlockDeliveringPower`, `IsBlockEdited`, `IsBlockLightSource`, `IsBlockOpen`, `IsBlockOre`, `IsBlockPassable`, `IsBlockReceivingPower`, `IsBlockResistance`, `IsBlockSolid`, `IsBlockTexture`, `OpenBlock`, `SetPower`
+
+### NPCs and actors
+
+`HasActor`, `NpcHealth`, `NpcSpawn`, `NpcState`, `SetNameplate`
+
+### Items, inventory, and equipment
+
+`CanEquip`, `Equip`, `Inventory`, `Item`, `Pickup`, `Unequip`, `SetItemData`
+
+### Player skills and statistics
+
+`HasSkill`, `HasStatBonus`, `Health`, `HealthMod`, `Skill`, `SkillXP`
+
+### Conditions and state tests
+
+`HasAction`, `HasHistory`, `HasInventory`, `HasItemData`, `HasMarker`, `HasPermission`, `IsAvatar`, `IsClan`, `IsClock`, `IsCombat`, `IsDayTime`, `IsDistance`, `IsEquipped`, `IsFiniteResources`, `IsGamerCount`, `IsInZone`, `IsLight`, `IsNameplate`, `IsNightTime`, `IsNpcCount`, `IsRandom`, `IsSkills`, `IsTime`, `IsVar`
+
+### Variables and randomization
+
+`Random`, `Var`
+
+### Regions, zones, markers, and waypoints
+
+`Marker`, `SetRegion`, `SetRegionAux`, `SetSphere`, `Waypoint`, `Zone`
+
+### HUD, menus, and player interaction
+
+`HUDBar`, `HUDCounter`, `HUDShape`, `HUDText`, `Input`, `Menu`, `MessageBox`, `Notify`, `Permission`, `Kick`, `SetReach`
+
+### Audio, particles, weather, and appearance
+
+`Particle`, `ParticleEmitter`, `Rain`, `SkyColor`, `Sound`, `TintColor`
+
+### Clans, history, and game systems
+
+`Clan`, `Commit`, `CCTV`, `History`
+
+### Script callbacks and runtime control
+
+`ModCallback`, `SetBlockScript`, `SetEventScript`, `SetHour`
+
+### Direct movement and world actions
+
+`Teleport`
+
+The assemblies also expose script runtime operations such as `QueueScript`, `ExecuteScript`, `CancelScript`, and `GetListOfQueuedScripts`, plus Lua bridge functions for actor state, NPC spawning, event scripts, block scripts, and zone scripts. The Lua API is documented separately in the [Lua Scripting Reference](./lua-docs.html).
+
+The short command tables below are retained as a beginner-friendly overview. Names in those tables that are not listed in the verified inventory are descriptive shorthand and should not be assumed to be literal TMInfo command names.
 
 ---
 
