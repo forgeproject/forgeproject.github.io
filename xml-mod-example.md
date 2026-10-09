@@ -13,6 +13,10 @@ sitemap_exclude: true
 A worked example mod using the fields documented in the XML Modding Reference.
 </p>
 
+<p align="center">
+Read the <a href="./xml-docs.html">XML Modding Reference</a> for field definitions and source links.
+</p>
+
 ---
 
 Every XML file in this example begins with the XML declaration:
@@ -31,6 +35,7 @@ For standalone array files, use the wrapper generated for the item type. An `Ite
 - [Adding a custom NPC — Frost Wraith](#adding-a-custom-npc--frost-wraith)
 - [Adding a particle template — FrostSpark](#adding-a-particle-template--frostspark)
 - [Notes](#notes)
+- [Sources](#sources)
 
 ---
 
@@ -372,6 +377,12 @@ This particle could be referenced by a Particle Emitter block, or emitted from t
 - If a file represents an array rather than a single object, use the generated array wrapper, such as `<ArrayOfItemXML>` for `ItemXML[]` or `<ArrayOfLootItem>` for `LootItem[]`; do not wrap ordinary object fields in an array root.
 - IDs like `FrostBlade`, `FrostWraith`, `FrostWraithAI`, `FrostWraithLevel`, `FrostWraithPhysics`, and `FrostSpark` are custom and must stay consistent across every file that references them.
 
-  ---
+## Sources
 
-  [← Back to Home](./)
+- [Original Total Miner Reference](https://totalminer.github.io/index)
+
+---
+
+[← Back to XML Documentation](./xml-docs.html)
+
+[← Back to Home](./)

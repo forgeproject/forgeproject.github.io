@@ -23,6 +23,10 @@ Total Miner's built-in command-based scripting system for players, the world, NP
 Looking for the Lua modding API instead? See the <a href="./lua-docs.html">Lua Scripting Reference</a>.
 </p>
 
+<p align="center">
+<a href="./lua-docs.html">Lua</a> · <a href="./scripting.html">Command Scripting</a> · <a href="./xml-docs.html">XML Modding</a>
+</p>
+
 ---
 
 ## Table of contents
@@ -30,6 +34,7 @@ Looking for the Lua modding API instead? See the <a href="./lua-docs.html">Lua S
 - [Start Here](#start-here)
 - [How Scripts Work](#how-scripts-work)
 - [Common Script Patterns](#common-script-patterns)
+- [Worked Example](#worked-example)
 - [Command Reference](#command-reference)
   - [Flow and Execution](#flow-and-execution)
   - [Blocks and Regions](#blocks-and-regions)
@@ -41,6 +46,7 @@ Looking for the Lua modding API instead? See the <a href="./lua-docs.html">Lua S
   - [Effects and World Presentation](#effects-and-world-presentation)
   - [History, Clans, and Callbacks](#history-clans-and-callbacks)
   - [Runtime and Lua Interop](#runtime-and-lua-interop)
+- [Sources](#sources)
 
 ---
 
@@ -108,6 +114,10 @@ Loop(<count>)
 ```
 
 The loop terminator should be selected from the command offered by the editor. It is shown as a placeholder here because the assembly inventory does not identify the required loop-closing syntax.
+
+## Worked Example
+
+For a complete beginner-friendly command script, see the [Scripting Example](./scripting-example.html).
 
 ## Command Reference
 
@@ -179,6 +189,12 @@ These commands work with history, clans, CCTV, markers, waypoints, zones, and ca
 The assemblies also expose runtime operations such as `QueueScript`, `ExecuteScript`, `CancelScript`, and `GetListOfQueuedScripts`. `InlineLua` and the runtime's Lua bridge connect command scripts to the Lua API.
 
 For Lua functions covering blocks, inventory, NPCs, zones, history, HUD, and events, see the [Lua Scripting Reference](./lua-docs.html).
+
+---
+
+## Sources
+
+- [Original Total Miner Reference](https://totalminer.github.io/index)
 
 ---
 

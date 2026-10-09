@@ -10,13 +10,24 @@ sitemap_exclude: true
 <h1 align="center">Total Miner Lua API Reference</h1>
 
 <p align="center">
-Complete function reference for Total Miner's Lua scripting API, organized by category. <a href="https://totalminer.github.io/index" target="_blank" rel="noopener noreferrer">Original source</a>
+Complete function reference for Total Miner's Lua scripting API, organized by category.
+</p>
+
+<p align="center">
+New to Lua modding? See the <a href="./lua-example.html">Lua Mod Example</a> first. The original reference is listed at the bottom of this page.
+</p>
+
+<p align="center">
+<a href="./lua-docs.html">Lua</a> · <a href="./scripting.html">Command Scripting</a> · <a href="./xml-docs.html">XML Modding</a>
 </p>
 
 ---
 
 ## Table of contents
 
+- [Start Here](#start-here)
+- [How the API Is Organized](#how-the-api-is-organized)
+- [Learning Workflow](#learning-workflow)
 - [Blocks](#blocks)
 - [Blueprints](#blueprints)
 - [CCTV](#cctv)
@@ -43,6 +54,32 @@ Complete function reference for Total Miner's Lua scripting API, organized by ca
 - [Weather](#weather)
 - [Zones](#zones)
 - [Getters](#getters)
+- [Sources](#sources)
+
+---
+
+## Start Here
+
+Lua functions are grouped by the kind of game system they control. Start with one small task, test it, and then combine functions into a larger mod. The [Lua Mod Example](./lua-example.html) demonstrates blocks, inventory, NPCs, particles, sounds, and event scripts together.
+
+> **Important:** This reference documents function purposes, but some function signatures depend on the calling context. Confirm argument order and callback values in the original reference or in the game environment before publishing a mod.
+
+## How the API Is Organized
+
+- **Actions** change the world or a player, such as `set_block`, `add_inventory`, and `spawn_npc`.
+- **Getters** read information such as the current position, health, item data, or nearby entity counts.
+- **Scripts and callbacks** connect Lua code to events, blocks, zones, and other scripts.
+- **Effects and presentation** control sounds, particles, HUD elements, weather, and tints.
+
+Function names use lowercase snake case. Keep coordinates, IDs, and repeated values in named variables so scripts are easier to read and adjust.
+
+## Learning Workflow
+
+1. Read the category that matches the feature you want to change.
+2. Try one function in a small test area.
+3. Use getters such as `get_block`, `get_point`, or `get_health` to verify the result.
+4. Add a callback, event script, or zone script only after the basic action works.
+5. Keep a copy of the original map and test destructive functions such as region replacement carefully.
 
 ---
 
@@ -443,6 +480,12 @@ General getter functions.
 - **`get_viewport_height`** — Get the viewport height (in pixels).
 - **`get_actor_avatar`** — Get the avatar of the context actor.
 - **`get_text`** — Get the text of a block (Sign, Book, etc).
+
+---
+
+## Sources
+
+- [Original Total Miner Reference](https://totalminer.github.io/index)
 
 ---
 

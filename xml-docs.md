@@ -14,10 +14,35 @@ Complete reference for Total Miner's XML modding files, organized by category.
 </p>
 
 <p align="center">
-Looking for a worked example? See the <a href="./xml-mod-example.html">XML Mod Example</a>.
+New to XML modding? Start with the <a href="./xml-mod-example.html">XML Mod Example</a>. The available documentation sources are listed at the bottom of this page.
+</p>
+
+<p align="center">
+<a href="./lua-docs.html">Lua</a> · <a href="./scripting.html">Command Scripting</a> · <a href="./xml-docs.html">XML Modding</a>
 </p>
 
 ---
+
+## Start Here
+
+XML mods are data files. Each file describes an item, block, NPC, particle, texture entry, or another game object. Begin with the file type that matches what you want to change, copy the smallest relevant example, and add only the fields you need.
+
+The usual workflow is:
+
+1. Choose the XML file that owns the data you want to change.
+2. Add the XML declaration and the expected root element.
+3. Add the identifying field, such as `ItemID`, `BlockID`, or `ActorType`.
+4. Add and test one group of properties at a time.
+5. Use the [XML Mod Example](./xml-mod-example.html) to compare complete files.
+
+> **Important:** XML element names, root wrappers, IDs, and value types must match the loader's expected structure. The examples show the documented structure, but keep a backup of the original files while testing.
+
+## How XML Data Is Organized
+
+- **Single objects** use a root element such as `<Item>`, `<Block>`, `<Actor>`, or `<Particle>`.
+- **Nested objects** use child elements such as `<Velocity>`, `<Result>`, or `<LootTable>`.
+- **Arrays** use the generated wrapper for the item type when the file itself represents an array, such as `<ArrayOfItemXML>`.
+- **IDs** connect data across files. Keep custom item, NPC, script, and particle IDs consistent everywhere they are referenced.
 
 ## XML document format
 
@@ -43,6 +68,8 @@ Do not add an array wrapper around a normal object field. For example, `LootTabl
 
 ## Table of contents
 
+- [Start Here](#start-here)
+- [How XML Data Is Organized](#how-xml-data-is-organized)
 - [Data Types](#data-types)
 - [Adding And Modifying Items](#adding-and-modifying-items)
   - [ItemData.xml](#itemdataxml)
@@ -67,6 +94,7 @@ Do not add an array wrapper around a normal object field. For example, `LootTabl
   - [ActorPhysicsData.xml](#actorphysicsdataxml)
 - [Adding Particle Templates](#adding-particle-templates)
   - [ParticleData.xml](#particledataxml)
+- [Sources](#sources)
 
 ---
 
@@ -404,6 +432,12 @@ Contains the data for this particle template.
 - **`EndColor`** (`Color`) — The color of the particle at the end of its duration. The particle fades from the `StartColor` to this color.
 - **`WindFactor`** (`float`) — How much wind moves this particle.
 - **`Gravity`** (`float`) — How much gravity affects this particle.
+
+---
+
+## Sources
+
+- [Original Total Miner Reference](https://totalminer.github.io/index)
 
 ---
 
