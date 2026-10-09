@@ -15,6 +15,14 @@ A worked example mod using the fields documented in the XML Modding Reference.
 
 ---
 
+Every XML file in this example begins with the XML declaration:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+```
+
+For standalone array files, use the wrapper generated for the item type. An `ItemXML[]` uses `<ArrayOfItemXML>`; arrays of other types use their corresponding wrapper, such as `<ArrayOfLootItem>`.
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -44,6 +52,7 @@ Each section below shows the relevant snippet for every file it touches. Swap in
 **ItemData.xml**
 
 ```xml
+<?xml version="1.0" encoding="utf-8"?>
 <Item>
   <ItemID>FrostBlade</ItemID>
   <Name>Frost Blade</Name>
@@ -67,6 +76,7 @@ Each section below shows the relevant snippet for every file it touches. Swap in
 **ItemTypeData.xml**
 
 ```xml
+<?xml version="1.0" encoding="utf-8"?>
 <Item>
   <ItemID>FrostBlade</ItemID>
   <Use>Item</Use>
@@ -84,6 +94,7 @@ Each section below shows the relevant snippet for every file it touches. Swap in
 **ItemCombatData.xml**
 
 ```xml
+<?xml version="1.0" encoding="utf-8"?>
 <Combat>
   <CombatID>FrostBladeCombat</CombatID>
   <Health>0</Health>
@@ -98,6 +109,7 @@ Each section below shows the relevant snippet for every file it touches. Swap in
 **ItemSwingTimeData.xml**
 
 ```xml
+<?xml version="1.0" encoding="utf-8"?>
 <Item>
   <ItemID>FrostBlade</ItemID>
   <Time>0.6</Time>
@@ -111,6 +123,7 @@ Each section below shows the relevant snippet for every file it touches. Swap in
 **ItemSoundData.xml**
 
 ```xml
+<?xml version="1.0" encoding="utf-8"?>
 <Item>
   <ItemID>FrostBlade</ItemID>
   <Group>ItemSteelTool</Group>
@@ -120,6 +133,7 @@ Each section below shows the relevant snippet for every file it touches. Swap in
 **SkillData.xml**
 
 ```xml
+<?xml version="1.0" encoding="utf-8"?>
 <Item>
   <ItemID>FrostBlade</ItemID>
   <UseReq>35</UseReq>
@@ -132,6 +146,7 @@ Each section below shows the relevant snippet for every file it touches. Swap in
 **BlueprintData.xml**
 
 ```xml
+<?xml version="1.0" encoding="utf-8"?>
 <Blueprint>
   <ItemID>FrostBlade</ItemID>
   <CraftType>Crafting</CraftType>
@@ -171,6 +186,7 @@ Because Rhyolite already exists, supplying its `BlockID` modifies it in place ra
 **BlockData.xml**
 
 ```xml
+<?xml version="1.0" encoding="utf-8"?>
 <Block>
   <BlockID>Rhyolite</BlockID>
   <Luminance>2</Luminance>
@@ -181,6 +197,7 @@ Because Rhyolite already exists, supplying its `BlockID` modifies it in place ra
 **BlockMaterialData.xml**
 
 ```xml
+<?xml version="1.0" encoding="utf-8"?>
 <Material>
   <Material>Rhyolite</Material>
   <Resistance>7800</Resistance>
@@ -191,6 +208,7 @@ Because Rhyolite already exists, supplying its `BlockID` modifies it in place ra
 To also change Rhyolite's shop name, description, or price, add an `ItemData.xml` entry using the block ID as the `ItemID`:
 
 ```xml
+<?xml version="1.0" encoding="utf-8"?>
 <Item>
   <ItemID>Rhyolite</ItemID>
   <Name>Glowing Rhyolite</Name>
@@ -205,6 +223,7 @@ To also change Rhyolite's shop name, description, or price, add an `ItemData.xml
 **ActorTypeData.xml**
 
 ```xml
+<?xml version="1.0" encoding="utf-8"?>
 <Actor>
   <ActorType>FrostWraith</ActorType>
   <LevelType>FrostWraithLevel</LevelType>
@@ -236,6 +255,7 @@ To also change Rhyolite's shop name, description, or price, add an `ItemData.xml
 **ActorAIData.xml**
 
 ```xml
+<?xml version="1.0" encoding="utf-8"?>
 <AI>
   <ActorAIType>FrostWraithAI</ActorAIType>
   <StrikeDelay>1.2</StrikeDelay>
@@ -250,6 +270,7 @@ To also change Rhyolite's shop name, description, or price, add an `ItemData.xml
 **ActorAudioData.xml**
 
 ```xml
+<?xml version="1.0" encoding="utf-8"?>
 <Audio>
   <ActorType>FrostWraith</ActorType>
   <AudioPain>WraithHurt</AudioPain>
@@ -261,6 +282,7 @@ To also change Rhyolite's shop name, description, or price, add an `ItemData.xml
 **ActorLevelData.xml**
 
 ```xml
+<?xml version="1.0" encoding="utf-8"?>
 <Level>
   <ActorLevelType>FrostWraithLevel</ActorLevelType>
   <HealthLevel>60</HealthLevel>
@@ -274,6 +296,7 @@ To also change Rhyolite's shop name, description, or price, add an `ItemData.xml
 **ActorPhysicsData.xml**
 
 ```xml
+<?xml version="1.0" encoding="utf-8"?>
 <Physics>
   <ActorPhysicsType>FrostWraithPhysics</ActorPhysicsType>
   <Acceleration>0.12</Acceleration>
@@ -290,6 +313,7 @@ To also change Rhyolite's shop name, description, or price, add an `ItemData.xml
 **ParticleData.xml**
 
 ```xml
+<?xml version="1.0" encoding="utf-8"?>
 <Particle>
   <Name>FrostSpark</Name>
   <EmitFreq>80</EmitFreq>
@@ -345,6 +369,7 @@ This particle could be referenced by a Particle Emitter block, or emitted from t
 ## Notes
 
 - Element/root tag names above (`<Item>`, `<Actor>`, `<Block>`, etc.) are illustrative — match whatever wrapper structure your Total Miner mod loader expects for each file; 
+- If a file represents an array rather than a single object, use the generated array wrapper, such as `<ArrayOfItemXML>` for `ItemXML[]` or `<ArrayOfLootItem>` for `LootItem[]`; do not wrap ordinary object fields in an array root.
 - IDs like `FrostBlade`, `FrostWraith`, `FrostWraithAI`, `FrostWraithLevel`, `FrostWraithPhysics`, and `FrostSpark` are custom and must stay consistent across every file that references them.
 
   ---

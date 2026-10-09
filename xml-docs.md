@@ -19,6 +19,28 @@ Looking for a worked example? See the <a href="./xml-mod-example.html">XML Mod E
 
 ---
 
+## XML document format
+
+Every standalone XML file should begin with the XML declaration:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+```
+
+When a field is serialized as an array, use the array wrapper generated for its item type. For example, an `ItemXML[]` uses `<ArrayOfItemXML>` as its root, while other array types use the corresponding type name, such as `<ArrayOfLootItem>` or `<ArrayOfString>`. The individual entries remain the element type inside the wrapper.
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfItemXML>
+  <ItemXML>
+	<ItemID>FrostBlade</ItemID>
+	<Count>1</Count>
+  </ItemXML>
+</ArrayOfItemXML>
+```
+
+Do not add an array wrapper around a normal object field. For example, `LootTable` is shown as a property containing `LootItem` entries; use an array root only when the XML file itself represents an array.
+
 ## Table of contents
 
 - [Data Types](#data-types)
@@ -312,7 +334,7 @@ Contains general information about this NPC.
 - **`HandMaxHit`** (`int`) — The maximum damage this NPC can deal without a weapon.
 - **`NaturalSpawnFreq`** (`float`) — The time, in seconds, between spawns of this NPC. If this is 0, this NPC cannot spawn naturally.
 - **`NaturalBehavior`** (`string`) — The behavior this NPC has when naturally spawned.
-- **`LootTable`** (`LootItem[]`) — An array of items that this NPC can drop when killed.
+- **`LootTable`** (`LootItem[]`) — An array of items that this NPC can drop when killed. When serialized as a standalone array, its root wrapper is `<ArrayOfLootItem>`.
 
 ### ActorAIData.xml
 
