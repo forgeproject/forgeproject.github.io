@@ -14,11 +14,7 @@ Complete reference for Total Miner's XML modding files, organized by category.
 </p>
 
 <p align="center">
-New to XML modding? Start with the <a href="./xml-mod-example.html">XML Mod Example</a>. The available documentation sources are listed at the bottom of this page.
-</p>
-
-<p align="center">
-<a href="./lua-docs.html">Lua</a> · <a href="./scripting.html">Command Scripting</a>
+<a href="./lua-docs.html">Lua</a> · <a href="./scripting.html">Command Scripting</a> · <a href="./xml-docs.html">XML Modding</a>
 </p>
 
 ---
@@ -33,7 +29,7 @@ The usual workflow is:
 2. Add the XML declaration and the expected root element.
 3. Add the identifying field, such as `ItemID`, `BlockID`, or `ActorType`.
 4. Add and test one group of properties at a time.
-5. Use the XML Mod Example to compare complete files.
+5. Use the [XML Mod Example](./xml-mod-example.html) to compare complete files.
 
 > **Important:** XML element names, root wrappers, IDs, and value types must match the loader's expected structure. The examples show the documented structure, but keep a backup of the original files while testing.
 
